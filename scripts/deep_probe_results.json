@@ -1,0 +1,3231 @@
+{
+  "networkMap": {
+    "route": "/networkMap",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "internetBasic": {
+    "route": "/internetBasic",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "status_ipv4",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "wan_ipv4_protos",
+        "body_size": 187,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 187 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "wan_ipv4_status",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "wan_ipv4_pppoe",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 291,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhZ043v77mrOPRInHLrFX/pq9NjbItWEPNfiNAoAzDDX/WzjJSKJ1uxs80IpX8D2dcWFBpHwP5XCdYOG7Go6NlP8JsT0C4o2XE12BZrby1lLvhque75O3KS4LAx76eZUP/6BmfODvbUXLe6Vn185AQ+BWQjIOs6ojzXY/Uzd5Op"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 567,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRApTqhMcTgD8/OQ1nuIvKo6K0h/uCmzMwokqFzvDltVz1Rwsn1U7tA90bugqlpgkUvkAkY2EtgMHqIsgHBD/H8kt42/GnWsdUgljqAFNX7rtTLXipCbJ2C1sS8ULBhMeCG/moFvm6tsCJTFQIL9EyHxSDhADSAWzphBDJF4x7Eib"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAmKt9Nzl7hgFSl+1AFTGVt7zkAQH6A3WWwmpiO1F9g5Surb/aPAlkHbG/VB2Xa9k4w==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 907,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRApGZkPljIZUjcnaZz6QOae2qo/IPZMqhselG+4S5Q1D6ntw1grK2D7DWmgIX6CYAbapD+ggHMUwy/JzvSXqpFjwjrrTeSmKa+x7PIQ7A48bobtptCo9wSr3QnyZsXO02+MJ+8Vf7cWlLyCH/XGBzgB2GIARo+nPEWRyPjgxhBsV"
+      }
+    ],
+    "dom": {
+      "fields": {
+        "Username:": "sharoz_dawa",
+        "Password:": "(masked, len=8)"
+      },
+      "labels": []
+    }
+  },
+  "wireless2g": {
+    "route": "/wireless2g",
+    "requests_count": 13,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/privacy_policy",
+        "query_form": "fing_auth_state",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "cloud_login_window_pop",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "auto_update_remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "network_map",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "cloud_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 7,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Ro6WVN3ogTftad+2tzVeqGv/Ujgt19B5tdEWfzUuHxtA==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqJ8ddUps8Eq79syCAxTNSuokWfwntcb0zZfjYG79k3I+nHZulHfXv6rpItJeY/yEXdYKdtqxUX7tHgEAfu/e8lYfIp9R8n7Kf2zjWSCWt99\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 55,
+        "body_preview": "{\"data\":\"g+lfFaFNN3c2euJ0bufIFyqJV66Qd8JwlEOA9AVZ/pw=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RdpG6tAuEJENY0K11VHwZ1jCYpdP3pYc/UmpJ6VJw9THUSutR8XazROE/xgOP0DNEzTnh1j+axF+OkgIaZsdtw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "wireless5g": {
+    "route": "/wireless5g",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/smart_network",
+        "query_form": "game_accelerator",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAus8/3q2wgIQEe2QWor450Tlf2dEJAdsxVGdkIhqXBQv5h9FXTa/nmOD6KZKum/dgw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "wirelessAdv": {
+    "route": "/wirelessAdvancedSettings",
+    "requests_count": 2,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      }
+    ],
+    "responses_count": 4,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 163,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtFxfG8I1te2fQhdLNpT4HeqSTkXF73YNdioNha4tzMz5hjixubqMXBUf56NP28CYUxG9dBD/1Rbzhn893Sxqi3661n74ag42LO5sLXThhTDv49A65w+8OyvEb2+vGreqg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4771,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRArqK7eAU1/Pm9tybJk1Ex3WjuejEHMID32U81H6g+DJ/IExgZMvsOtPq2uvJn/Bf8Ph824HnQa5TzT7FAAJN/uF6ms1jGNIeMe45blo6Cmp55Jap+++l3yWJQHepiRdCHmRgzf5joKtOYJJZJxt2jmyQaWmbtwuf3YqbSnH3O3h"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "guestNetwork": {
+    "route": "/guestNetwork",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "wireless_wps": {
+    "route": "/wireless/wps",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "wireless_schedule": {
+    "route": "/wireless/schedule",
+    "requests_count": 4,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 1,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "wireless_wds": {
+    "route": "/wireless/wdsBridge",
+    "requests_count": 2,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      }
+    ],
+    "responses_count": 3,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "wireless_stats": {
+    "route": "/wireless/statistics",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "lan": {
+    "route": "/lan",
+    "requests_count": 4,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "dhcpServer": {
+    "route": "/dhcpServer",
+    "requests_count": 7,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "lan_ipv4",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/pptpd",
+        "query_form": "config",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/l2tpoveripsec",
+        "query_form": "config",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/dhcps",
+        "query_form": "setting",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/dhcps",
+        "query_form": "reservation",
+        "body_size": 167,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 167 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/dhcps",
+        "query_form": "client",
+        "body_size": 167,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 167 bytes)"
+      }
+    ],
+    "responses_count": 8,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtBcaYu3js+C1myCq2rW33p2An3JXHlooGSQhtnjqvraOTQldcLpmVk74t/etJp9jhiCH37Y06UCJSBoOehv/DI+FuHY9LhEJL8j0+msyA17DFIrxhV91nMKogqjfAs2rLTHPtSGKs3qS2CeNvfK+LfeOdPn3KMfWRflTZU9bVH"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"PpGCNc04qoGmU8XVhziGcwIhleo1sJ7Xft3pBIUtUY/jrbg7YoCMJkD0upVp0615TpsZTl2XmaJjhSeaChNVEQ==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 203,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAlpXJ2x8UeOpIdT01pxsrvkqjF3cCuWmaRtkF9AFNQUqGVvJmPXwjeqofeKTGldfjevI/q6tY1dO8fXH2YPvZ9uI98zJax5XqlOjIOSsW4Gxq3z3cegtugXvxhORAv4+XKjVwRUOVpbk20GjTXGqVMQ1A5983TVuZa6P8uZT0ay"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 291,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SyKffInkhPsM+kgXCW1oP5YHeqeV22dYPHjitMX2JdzWJX20gv+pm+2R7bcTOb1X+WhQPVtNjtEOavwtmGGwedAcISo5Jju6OIouw/jXSPtiZDkAS/+Afjzg77ZnLHojHhCKu8aDhJBygeaLqvbYi"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 547,
+        "body_preview": "{\"data\":\"RfHuAckatNBTncyLaV6IOvS36HucBTfPtlBofmDQseuEa/arat0rD4wI/WFK3ZKIV6uS8tvUh+kuZnJ7csaxXDzCvX6/aehJoXAlMAFkMZMlE7jhOMbLbs0YGahLfMegrTuH8qQtsoiDZq7SnYoPYv3BShmv1jCDT/6GnsbORch1YqtQGGl6DSbAOTLR6AR"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 1123,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRApCDuXsbS8/ubEvhT8QqqbUJTsHsJXl3GY4uwRVELLEgxrX3rD2S6er+/wBpA0XA8kwFv+fUHrvO1wJSZygGpPHep7VpkR6z/aaFIj7hvIXNhbrEYvtmhYk2yCpyUrXYjdaMFzA0EqJij2zupx8zdvgi5iRLlgPBA432zFLfZY0"
+      }
+    ],
+    "dom": {
+      "fields": {
+        "DHCP Server:": true,
+        "from-kxZTG-K96jKMsxJWdl8y8": "192.168.0.2",
+        "to-kxZTG-K96jKMsxJWdl8y8": "192.168.0.253",
+        "Address Lease Time:": "1440",
+        "Default Gateway:": "192.168.0.1",
+        "Primary DNS:": "1.1.1.1",
+        "Secondary DNS:": "1.0.0.1"
+      },
+      "labels": []
+    }
+  },
+  "ddns": {
+    "route": "/ddns",
+    "requests_count": 13,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/privacy_policy",
+        "query_form": "fing_auth_state",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "cloud_login_window_pop",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "auto_update_remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "network_map",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "cloud_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 8,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Ro6WVN3ogTftad+2tzVeqGv/Ujgt19B5tdEWfzUuHxtA==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqJ8ddUps8Eq79syCAxTNSuokWfwntcb0zZfjYG79k3I+nHZulHfXv6rpItJeY/yEXdYKdtqxUX7tHgEAfu/e8lYfIp9R8n7Kf2zjWSCWt99\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 55,
+        "body_preview": "{\"data\":\"g+lfFaFNN3c2euJ0bufIFyqJV66Qd8JwlEOA9AVZ/pw=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RdpG6tAuEJENY0K11VHwZ1jCYpdP3pYc/UmpJ6VJw9THUSutR8XazROE/xgOP0DNEzTnh1j+axF+OkgIaZsdtw==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "staticRoute": {
+    "route": "/staticRoute",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/smart_network",
+        "query_form": "game_accelerator",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAus8/3q2wgIQEe2QWor450Tlf2dEJAdsxVGdkIhqXBQv5h9FXTa/nmOD6KZKum/dgw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "portForwarding": {
+    "route": "/portForwarding",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "vs",
+        "body_size": 167,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 167 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "lan_ipv4",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 163,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtFxfG8I1te2fQhdLNpT4HeqSTkXF73YNdioNha4tzMz5hjixubqMXBUf56NP28CYUxG9dBD/1Rbzhn893Sxqi3661n74ag42LO5sLXThhTDv49A65w+8OyvEb2+vGreqg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"RfHuAckatNBTncyLaV6IOvS36HucBTfPtlBofmDQseuEa/arat0rD4wI/WFK3ZKItuh88R685PQbQ1O6zkUZZbuSvyLI868Me4eiveaJG9g6PNozKWdP/akNCjCHaGPkQ8ppmOYd84IUXQcF/H9iLUqJSKUZ5jzqgc0CvphnwxgQpHLdbvF0l4F9tSzL/lz"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4771,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRArqK7eAU1/Pm9tybJk1Ex3WjuejEHMID32U81H6g+DJ/IExgZMvsOtPq2uvJn/Bf8Ph824HnQa5TzT7FAAJN/uF6ms1jGNIeMe45blo6Cmp55Jap+++l3yWJQHepiRdCHmRgzf5joKtOYJJZJxt2jmyQaWmbtwuf3YqbSnH3O3h"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtBcaYu3js+C1myCq2rW33p2An3JXHlooGSQhtnjqvraOTQldcLpmVk74t/etJp9jhiCH37Y06UCJSBoOehv/DI+FuHY9LhEJL8j0+msyA17DFIrxhV91nMKogqjfAs2rLTHPtSGKs3qS2CeNvfK+LfeOdPn3KMfWRflTZU9bVH"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "portTriggering": {
+    "route": "/portTriggering",
+    "requests_count": 2,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "pt",
+        "body_size": 167,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 167 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RfHuAckatNBTncyLaV6IOhHN/HmJnSAaf3OzAMpUcIjrouN9jG1i6gPwh7ZJq/EuwyO3R9N2ukktnFzaY1h0OA==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "upnp": {
+    "route": "/upnp",
+    "requests_count": 4,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "setting",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/upnp",
+        "query_form": "enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/upnp",
+        "query_form": "service",
+        "body_size": 167,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 167 bytes)"
+      }
+    ],
+    "responses_count": 4,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAibId1s2G2i3TNzvVIRmQtkB1buQTvI8Ls1lqIblVaTCFoFrNQ0PVtWoxMnLPH63X0smEUxSJIq9yUfDg8ypyniEeJmfS7sFHrHx5hiQjzsOPL8miy/LGp2xO+DRQqeN4SkjUWaO9MyoS1fNlmN1qF0OoOSSyVuyukdQ3WLq0Mm"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/S36A7yfVV461hu2vsecC0U\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9655,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRApCDuXsbS8/ubEvhT8QqqbXE4RR6UB6VrymNwiqqwc2/EoeZ9KHMUYaBxswj2Qi8igv8CCA1FZjGjnuKxQ1KTy01LRSA/KCz+z/bo1i7gru6VaU5pcHg2qEivGTOH5j7o3BZ8mrXb6Zr8k8WeeU5EZZOnfLM6pnXoA+blbJPCf7"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "dmz": {
+    "route": "/dmz",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "dmz",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "setting",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 3,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/RNKVgB2o3vue83lyBWFUEej8XMmXb7cbi/OWOk3XLzKg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAibId1s2G2i3TNzvVIRmQtkB1buQTvI8Ls1lqIblVaTCFoFrNQ0PVtWoxMnLPH63X0smEUxSJIq9yUfDg8ypyniEeJmfS7sFHrHx5hiQjzsOPL8miy/LGp2xO+DRQqeN4SkjUWaO9MyoS1fNlmN1qF0OoOSSyVuyukdQ3WLq0Mm"
+      }
+    ],
+    "dom": {
+      "fields": {
+        "DMZ:": false
+      },
+      "labels": []
+    }
+  },
+  "firewall": {
+    "route": "/firewall",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "wan_ipv4_status",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/security_settings",
+        "query_form": "new_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 3,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 119,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/RD5tmFWC5cTMK32FUW88sdlP5bQppUpiprnpFwzOp0bO3ERgT6PsIyXzjglIME8cE=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAmKt9Nzl7hgFSl+1AFTGVt7zkAQH6A3WWwmpiO1F9g5Surb/aPAlkHbG/VB2Xa9k4w==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "accessControl": {
+    "route": "/accessControl",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/access_control",
+        "query_form": "enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "client_list",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 3,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 119,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/QVa1YDZWw4TjUjV3FAHkPRu3efMGiRcRG23drFYCttrRCwlhE/KXuCPMij6Dy+rtk=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 1483,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wv1dJVRNPvkfMmED8/YoB7WyNJi9if+TaupRQS82LFPvO60ZawmJ7bZqV2yJDfGlclYis7eDMrt2P9YHyGxIfhkZuyCVAZ+Pdb3rlrKbiwHl9uYCvq8Pi2CAOBF0UHPQrj3/MRkqCKaECYmECodg3W"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "ipMacBinding": {
+    "route": "/ipMacBinding",
+    "requests_count": 2,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/imb",
+        "query_form": "setting",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Q0nirLYjamrhiLXpZUIKzY\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "alg": {
+    "route": "/alg",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "alg",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/nat",
+        "query_form": "setting",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 3,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAsy7VxUr01lBJglPceKvrrt7CukYMfVw1z61jHKJs25Y/NrmsT7UbTuV+TnJiLji5ZuycESQyUB+RBW5ZNIev514iKMhQEfvEcilZQIhhRzQ9HECc1+ObLbsXkrpHj9a7nJ36trOtp4hTPmFxPh/zpY=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAibId1s2G2i3TNzvVIRmQtkB1buQTvI8Ls1lqIblVaTCFoFrNQ0PVtWoxMnLPH63X0smEUxSJIq9yUfDg8ypyniEeJmfS7sFHrHx5hiQjzsOPL8miy/LGp2xO+DRQqeN4SkjUWaO9MyoS1fNlmN1qF0OoOSSyVuyukdQ3WLq0Mm"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "openVpnServer": {
+    "route": "/openVpnServer",
+    "requests_count": 13,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/privacy_policy",
+        "query_form": "fing_auth_state",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "cloud_login_window_pop",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "auto_update_remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "network_map",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "cloud_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 7,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Ro6WVN3ogTftad+2tzVeqGv/Ujgt19B5tdEWfzUuHxtA==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 55,
+        "body_preview": "{\"data\":\"g+lfFaFNN3c2euJ0bufIFyqJV66Qd8JwlEOA9AVZ/pw=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqJ8ddUps8Eq79syCAxTNSuokWfwntcb0zZfjYG79k3I+nHZulHfXv6rpItJeY/yEXdYKdtqxUX7tHgEAfu/e8lYfIp9R8n7Kf2zjWSCWt99\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RdpG6tAuEJENY0K11VHwZ1jCYpdP3pYc/UmpJ6VJw9THUSutR8XazROE/xgOP0DNEzTnh1j+axF+OkgIaZsdtw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAus8/3q2wgIQEe2QWor450Tlf2dEJAdsxVGdkIhqXBQv5h9FXTa/nmOD6KZKum/dgw==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "pptpVpnServer": {
+    "route": "/pptpVpnServer",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/smart_network",
+        "query_form": "game_accelerator",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 163,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtFxfG8I1te2fQhdLNpT4HeqSTkXF73YNdioNha4tzMz5hjixubqMXBUf56NP28CYUxG9dBD/1Rbzhn893Sxqi3661n74ag42LO5sLXThhTDv49A65w+8OyvEb2+vGreqg==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "vpnClient": {
+    "route": "/vpnClient",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/vpn",
+        "query_form": "enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/vpn",
+        "query_form": "thirdvpn",
+        "body_size": 187,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 187 bytes)"
+      }
+    ],
+    "responses_count": 6,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/RiZ5AOA9k6DvbJCQ5IKQh8O6R5XvQbYIiqskMEbbVrRw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4791,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRArqK7eAU1/Pm9tybJk1Ex3WjuejEHMID32U81H6g+DJ/IExgZMvsOtPq2uvJn/Bf8Ph824HnQa5TzT7FAAJN/uF6ms1jGNIeMe45blo6Cmp55Jap+++l3yWJQHepiRdCHmRgzf5joKtOYJJZJxt2jmyQaWmbtwuf3YqbSnH3O3h"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "ipv6": {
+    "route": "/ipv6",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "wan_ipv6_protos",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "wan_ipv6_status",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "lan_ipv6",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/network",
+        "query_form": "mac_clone_advanced",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 6,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 331,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhZ043v77mrOPRInHLrFX/pxyG8YHSI4a3c0poVkZIW+5bx05MhXIiN3bSQs/BneUrYt0HpW1iE8V8AYw9VOvO82t3TUsowGCIhtZJw1kJcc5tb01vtrAHG51h/xZCgwooEjTkzGja05CQoZNkY5IEVfNfQLe5q/eVMhyEiQZqx"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Rg0QL3kP2PiHCUQR1x67LuuskNBEZPb0AEHVhaIIGDYg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 163,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtdl5Zg6i283zkSr+BGD3DR/iI+YPBgfw6/BPZkOze1MaxmQfGYVbGaTd3GNX5whMQBYulovb6AsbdZu8+HfxBHfYBQlBl4taSSLQh+peq8+zArWbf+orpZGTKMNb4/9gg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 267,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAsSLNHEO1NpvZcAMuHptcnh5Oc36dH5mRtPojuRp0+5CMFI9H76A5xPVkfq3xzVJGD/sIaQLyINVGNQLlLN5CnaniYCGAYa23QhOgihkPnAWMsdfKkcjLGyqjNMq7kBTnW8QLpShSqRQnm4xECIMIednpCMs0F8H99/lxlB2ND+"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 247,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAi9w0cgmlFNyBT16M33kQGruturgiMn8btP8RkmvY1VAqOfJvQhuXtuvNUXkz6itmsBwBsF+WMu1kGanLEtdhFYsZ+sWSJijvTkr2+YOis0iYLrxqwd/0UKkOcZ7yTiJaBDIK0nmjs7cRLncrtgAMCq4n5huH08fw/5dX1w1N9o"
+      }
+    ],
+    "dom": {
+      "fields": {
+        "dTaZ_ssy39He3S9BODYy_": false,
+        "Address Prefix:": "",
+        "PVnRcK7oYOUUWfX_TAId9-input-1": "54",
+        "PVnRcK7oYOUUWfX_TAId9-input-2": "AF",
+        "PVnRcK7oYOUUWfX_TAId9-input-3": "97",
+        "PVnRcK7oYOUUWfX_TAId9-input-4": "42",
+        "PVnRcK7oYOUUWfX_TAId9-input-5": "39",
+        "PVnRcK7oYOUUWfX_TAId9-input-6": "C9"
+      },
+      "labels": [
+        {
+          "key": "plain-text",
+          "text": "FE80::56AF:97FF:FE42:39C8/64"
+        }
+      ]
+    }
+  },
+  "easyMesh": {
+    "route": "/easyMesh",
+    "requests_count": 9,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/wireless",
+        "query_form": "wireless_2g",
+        "body_size": 189,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 189 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/wireless",
+        "query_form": "wireless_5g",
+        "body_size": 189,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 189 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/wireless",
+        "query_form": "smart_connect",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 1187,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAuQe36E3skISjRruZ0KESifzxsl8G7IOun2t6jiNUufPH1+Zwe/EUSYKeh8ZvYLKUU6bTgoqNEuoPQpu1RHtDXrgLzdIuHRh5DM/6ms0TCIzY7jve+JBtsdfvVR8y17WBF6X9i/Ve0KEIT5qWI4kGa+8UDzwI3DJfvI/S/qU4FF"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 1187,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAuQe36E3skISjRruZ0KESifzxsl8G7IOun2t6jiNUufPH1+Zwe/EUSYKeh8ZvYLKUU6bTgoqNEuoPQpu1RHtDXrgLzdIuHRh5DM/6ms0TCIzY7jve+JBtsdfvVR8y17WBF6X9i/Ve0KEIT5qWI4kGa+8UDzwI3DJfvI/S/qU4FF"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAu6JesYUUu8omJZtKGFkkXbMculR8T/Yr/cQMxJiUxe3\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "timeSettings": {
+    "route": "/timeSettings",
+    "requests_count": 7,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/time",
+        "query_form": "settings",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/firmware",
+        "query_form": "auto_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/time",
+        "query_form": "settings",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/wireless",
+        "query_form": "region",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/time",
+        "query_form": "dst",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/time",
+        "query_form": "settings",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 7,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 355,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtwvIEhXgSxYsjl0bxoAxtdj8TQIiTYdd3wKfW4Hq3XIzMEoC82Qy7TxqVHCo+/qV/ISojOfaNRu6ZMknVeTXsYYAhys0ZrrXCW2aJXn1aiFeoICCXN0FvEIIiQYwswZgqsJVxloNbrDI3OQaqD6zcYAsd/YpD/0p1ztW4FRzoT"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Q1Mfu84Nc0URC1v2cwpENRtXwtERRiWNUolAKTbWeMxg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 951,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAk2QU2KEASe0cIauXjza+iQzy+y+NKI3K0mRbzprbAyJHrjIBKhBlGnVNe80KqX7XTxJDPr68MR9gDt9pmR2mVX/nuCTsQZhnE7B27z/me61T1htxv5PpM5TDJB/4yWdD5t50GVW6+VDJD1QZV27vtg21IQX26EWYJkT/eAG2Rz"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 355,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAo5aIO4wR8PrAP7R1uGdGsyhMKPtbLVDcUfUMsv5uysPtKy6kwNQ92j66KEMgBjipgNb1/KcLSQFtcpgE7gCyM93EIDcb/v4iq+a9UWqlz9eBnIMjrl2GNSqQGUoZfMrwBaQv5AU8PUCbTGIRWrhkE/VhOWaR7NtZaj2DLxDXVc"
+      }
+    ],
+    "dom": {
+      "fields": {
+        "NTP Server I:": "time.nist.gov",
+        "NTP Server II:": "time-nw.nist.gov",
+        "Daylight Saving Time:": false
+      },
+      "labels": []
+    }
+  },
+  "backupRestore": {
+    "route": "/backupRestore",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/firmware",
+        "query_form": "config",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 3,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAo/JkByry15FJvsSHpIQCImXdBZYdKsEC8OR7kFbrOHn\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "firmwareUpgrade": {
+    "route": "/firmwareUpgrade",
+    "requests_count": 13,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/privacy_policy",
+        "query_form": "fing_auth_state",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "cloud_login_window_pop",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "auto_update_remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "network_map",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "cloud_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 7,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Ro6WVN3ogTftad+2tzVeqGv/Ujgt19B5tdEWfzUuHxtA==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqJ8ddUps8Eq79syCAxTNSuokWfwntcb0zZfjYG79k3I+nHZulHfXv6rpItJeY/yEXdYKdtqxUX7tHgEAfu/e8lYfIp9R8n7Kf2zjWSCWt99\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 55,
+        "body_preview": "{\"data\":\"g+lfFaFNN3c2euJ0bufIFyqJV66Qd8JwlEOA9AVZ/pw=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAus8/3q2wgIQEe2QWor450Tlf2dEJAdsxVGdkIhqXBQv5h9FXTa/nmOD6KZKum/dgw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RdpG6tAuEJENY0K11VHwZ1jCYpdP3pYc/UmpJ6VJw9THUSutR8XazROE/xgOP0DNEzTnh1j+axF+OkgIaZsdtw==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "factoryDefaults": {
+    "route": "/factoryDefaults",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/smart_network",
+        "query_form": "game_accelerator",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 6,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstiqPnewOm0ths6How4CbgqvuH//1pM/2aY07E/R89xVSu6QMlrnwvb3aBIqmfL8FYEbI3pbUMGBTHOWtOUoL6/6i5Y32WwiqfG4lgyAJJyPb"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 163,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtFxfG8I1te2fQhdLNpT4HeqSTkXF73YNdioNha4tzMz5hjixubqMXBUf56NP28CYUxG9dBD/1Rbzhn893Sxqi3661n74ag42LO5sLXThhTDv49A65w+8OyvEb2+vGreqg==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "reboot": {
+    "route": "/reboot",
+    "requests_count": 4,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/time",
+        "query_form": "settings",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/time",
+        "query_form": "settings",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/reboot",
+        "query_form": "set",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 5,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 355,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtwvIEhXgSxYsjl0bxoAxtdj8TQIiTYdd3wKfW4Hq3XIzMEoC82Qy7TxqVHCo+/qV/ISojOfaNRu6ZMknVeTXsYYAhys0ZrrXCW2aJXn1aiFeoICCXN0FvEIIiQYwswZgqsJVxloNbrDI3OQaqD6zcYAsd/YpD/0p1ztW4FRzoT"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/RISNql3jIx240vDlqBgMXinBtHFcbpMWD4tQGeV5esgMeCYZizGpHC1sOgrT0yDrdQs9R5n1tfLNLjF7tNv1Xq\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4791,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRArqK7eAU1/Pm9tybJk1Ex3WjuejEHMID32U81H6g+DJ/IExgZMvsOtPq2uvJn/Bf8EkuPMkB4HXDW+9MgfXXnvnPPOU5wYc8WhwiQ9osej8ioD0pPxgxfY5ZfzQn2UupB9MQE5lzvka6mPiK7IIXEOk7pjDNi6sUfemKVUOgGkX"
+      }
+    ],
+    "dom": {
+      "fields": {
+        "Reboot Schedule:": false
+      },
+      "labels": []
+    }
+  },
+  "systemLog": {
+    "route": "/systemLog",
+    "requests_count": 13,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/privacy_policy",
+        "query_form": "fing_auth_state",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "cloud_login_window_pop",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "auto_update_remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "network_map",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "cloud_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 7,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Ro6WVN3ogTftad+2tzVeqGv/Ujgt19B5tdEWfzUuHxtA==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqJ8ddUps8Eq79syCAxTNSuokWfwntcb0zZfjYG79k3I+nHZulHfXv6rpItJeY/yEXdYKdtqxUX7tHgEAfu/e8lYfIp9R8n7Kf2zjWSCWt99\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 55,
+        "body_preview": "{\"data\":\"g+lfFaFNN3c2euJ0bufIFyqJV66Qd8JwlEOA9AVZ/pw=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RdpG6tAuEJENY0K11VHwZ1jCYpdP3pYc/UmpJ6VJw9THUSutR8XazROE/xgOP0DNEzTnh1j+axF+OkgIaZsdtw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "diagnostic": {
+    "route": "/diagnostic",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/smart_network",
+        "query_form": "game_accelerator",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 4,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstilrWGKuAL90c9/IGPnzv9//ui6zohFakToVHvHY7+msA2ITOWfJi0w/817gQNGKr49U1vkkprFycKoi+QVen/Vze0Wr9KcRgUyyp2EZk1/Z"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "ledControl": {
+    "route": "/ledControl",
+    "requests_count": 2,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      }
+    ],
+    "responses_count": 4,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 163,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAtFxfG8I1te2fQhdLNpT4HeqSTkXF73YNdioNha4tzMz5hjixubqMXBUf56NP28CYUxG9dBD/1Rbzhn893Sxqi3661n74ag42LO5sLXThhTDv49A65w+8OyvEb2+vGreqg==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4771,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRArqK7eAU1/Pm9tybJk1Ex3WjuejEHMID32U81H6g+DJ/IExgZMvsOtPq2uvJn/Bf8Fydt5kGNYqvDGPcBqdHKIzuzHQDxbOa/lOqf51N7Ii2fEOujMfcGXcjDILSxN0VGuVbxPndf3kpWrrr05XbwayIfGpPXP1rdEO+TZjffZm"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "loginPassword": {
+    "route": "/loginPassword",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "cloudUserManagement": {
+    "route": "/cloudUserManagement",
+    "requests_count": 3,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 2,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "homeShield": {
+    "route": "/homeShield",
+    "requests_count": 1,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      }
+    ],
+    "responses_count": 1,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "parentalControlsV4": {
+    "route": "/parentalControlsV4",
+    "requests_count": 13,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/privacy_policy",
+        "query_form": "fing_auth_state",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "cloud_login_window_pop",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "auto_update_remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh",
+        "query_form": "easymesh_enable",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "get_deviceInfo",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "network_map",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "remind",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/cloud_account",
+        "query_form": "cloud_upgrade",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 6,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/Ro6WVN3ogTftad+2tzVeqGv/Ujgt19B5tdEWfzUuHxtA==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 55,
+        "body_preview": "{\"data\":\"g+lfFaFNN3c2euJ0bufIFyqJV66Qd8JwlEOA9AVZ/pw=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 139,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqJ8ddUps8Eq79syCAxTNSuokWfwntcb0zZfjYG79k3I+nHZulHfXv6rpItJeY/yEXdYKdtqxUX7tHgEAfu/e8lYfIp9R8n7Kf2zjWSCWt99\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"RdpG6tAuEJENY0K11VHwZ1jCYpdP3pYc/UmpJ6VJw9THUSutR8XazROE/xgOP0DNEzTnh1j+axF+OkgIaZsdtw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAiY6EhXTNGQwVTEpqRTo+/SfXDrNNJ5lE5d6jfZZFao370mQuziVPnH/w3MF/0hrKg==\"}"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  },
+  "qos": {
+    "route": "/qos",
+    "requests_count": 5,
+    "requests": [
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/device_config",
+        "query_form": "config",
+        "body_size": 14,
+        "body_encrypted": false,
+        "body_preview": "operation=read"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/easymesh_network",
+        "query_form": "get_mesh_device_list_all",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/smart_network",
+        "query_form": "game_accelerator",
+        "body_size": 185,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 185 bytes)"
+      },
+      {
+        "method": "POST",
+        "path": "/cgi-bin/luci/;stok=b17babd983389be475ace0bedaf0525c/admin/status",
+        "query_form": "internet",
+        "body_size": 171,
+        "body_encrypted": true,
+        "body_preview": "(encrypted, 171 bytes)"
+      }
+    ],
+    "responses_count": 6,
+    "responses": [
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 99,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAus8/3q2wgIQEe2QWor450Tlf2dEJAdsxVGdkIhqXBQv5h9FXTa/nmOD6KZKum/dgw==\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 183,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAqkt6EA2WBHkHff5dWjW9Qf1NEZch7t5wzT/sGbfFM+2H0RvVPCSLDz8YB7mQhpKbSkc4MQv195Hnm6WDBcH0fpcx1pZG4nJAOR8df7wLmaGVjWuhNtodnuPggSb6QSysShg929All1tEbOiGx2/pEc=\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 75,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgEfyEwLLnnId1Eom1ApF9Q3btzQBHMaJOKJfPHevXfK\"}"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 779,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAgjSPXlINNC5ivuPoU656wtvV/rCulTY/NyQfWUEDGIZcBVKcDAsV5uwrWXRbvstilrWGKuAL90c9/IGPnzv9//ui6zohFakToVHvHY7+msA2ITOWfJi0w/817gQNGKr49U1vkkprFycKoi+QVen/Vze0Wr9KcRgUyyp2EZk1/Z"
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 4948,
+        "body_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\""
+      },
+      {
+        "status": 200,
+        "encrypted": true,
+        "body_size": 9251,
+        "body_preview": "{\"data\":\"nzr1vRWcG4qV2QNvvPhRAhH0gWwelgQEoWDR1sOet+MEyxh/+YY0GP8glt0sRGFWYfxd0JjQJGyrE7BfrWd6Ri0YMt6ep7yVxyWQqrJE4DPigTyb6dM/uk/bVLhspoZFwyx9OTBpPnHmgw+yrYAJYuHPOBqjwtohtGmQ5ULHHBYIWmyvvEfaiOQWxPhUqOB"
+      }
+    ],
+    "dom": {
+      "fields": {},
+      "labels": []
+    }
+  }
+}

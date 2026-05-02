@@ -1,0 +1,1 @@
+var e=(e=>(e.Use="use",e.Idle="idle",e.Off="off",e.On="on",e.Disconnected="disconnected",e.PoorNetwork="poor_connected",e.NoInternet="no_internet",e.Unplugged="unplugged",e))(e||{}),n=(e=>(e.LoadBalance="load_balance",e.Backup="backup",e))(n||{}),o=(e=>(e.Ethernet="ethernet",e.Usb="usb",e.Hotspot="hotspot",e))(o||{});export{n as M,o as N,e as P};

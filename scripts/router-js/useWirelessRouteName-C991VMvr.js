@@ -1,0 +1,1 @@
+import{aV as e,r as s}from"./vendor-BrE4IMR2.js";import{u as r}from"./update-store-DQkZxaRI.js";function a(){const{deviceConfig:a}=e(r()),o=s("");return a.value.isPortableDevice?o.value="wirelessSettingsAdv":o.value="wirelessBasic",{topNavigatorWirelessRouteName:o}}export{a as u};

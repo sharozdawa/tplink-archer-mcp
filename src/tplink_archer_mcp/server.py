@@ -1,17 +1,18 @@
 """FastMCP server for TP-Link Archer routers (tested on AX53 / AX3000).
 
-Tools fall into 4 layers:
+Two backends, hybrid:
 
-    L1  router_api_call          — universal escape hatch, sends any path+operation
-    L1' list_endpoints           — lists every endpoint discovered by scripts/discover_endpoints.py
-    L2  get_*                    — typed reads (status, clients, wifi config, etc.)
-    L3  set_wifi_*, set_dns,     — typed writes for common operations
-        add_dhcp_reservation, …
-    L4  reboot_router            — one-shot ops
+    DIRECT (fast, ~100ms): tplinkrouterc6u library handles AES+HMAC and gives
+    direct read/write access. Works for ~10 endpoints today; can grow as the
+    AX53 protocol gets reverse-engineered further.
 
-The AX53 firmware encrypts every request payload (AES-CBC + HMAC). All of that
-is handled inside `tplinkrouterc6u`. The MCP server just exposes its
-`request()` method as a thin layer of typed tools.
+    PLAYWRIGHT (slow, ~1-3s): drives a headless Chromium session of the actual
+    web UI, hooks JSON.parse to capture decrypted responses. Works for ~193
+    endpoints — covers everything the UI does.
+
+Tool naming:
+    Plain names (e.g. `get_wifi_config`)   → direct/fast path
+    `pw_*` prefix (e.g. `pw_get_lan_settings`) → playwright path
 """
 from __future__ import annotations
 
@@ -24,6 +25,8 @@ from fastmcp import FastMCP
 
 from .auth import router_session
 from .serialize import to_jsonable
+from . import tools_playwright as pw
+from . import tools_playwright_write as pww
 
 
 logging.basicConfig(level=logging.WARNING)
@@ -250,6 +253,86 @@ def router_api_call(path: str, body: str = "operation=read") -> Any:
     Returns the decrypted response body parsed as JSON when possible.
     """
     return _do(path, body)
+
+
+
+# ──────────────────────────────────────────────────────────────────
+#  Playwright-backed tools (~25 typed reads, ~193 endpoint coverage)
+# ──────────────────────────────────────────────────────────────────
+
+mcp.tool(pw.pw_get_internet_full)
+mcp.tool(pw.pw_get_internet_protos)
+mcp.tool(pw.pw_get_lan_settings)
+mcp.tool(pw.pw_get_dhcp_server_config)
+mcp.tool(pw.pw_get_dhcp_reservations_full)
+mcp.tool(pw.pw_get_port_forwards)
+mcp.tool(pw.pw_get_port_triggers)
+mcp.tool(pw.pw_get_dmz)
+mcp.tool(pw.pw_get_upnp_full)
+mcp.tool(pw.pw_get_alg)
+mcp.tool(pw.pw_get_firewall)
+mcp.tool(pw.pw_get_access_control)
+mcp.tool(pw.pw_get_ip_mac_bindings)
+mcp.tool(pw.pw_get_vpn_client_full)
+mcp.tool(pw.pw_get_ipv6)
+mcp.tool(pw.pw_get_easymesh)
+mcp.tool(pw.pw_get_time_settings)
+mcp.tool(pw.pw_get_scheduled_reboot)
+mcp.tool(pw.pw_get_backup_state)
+mcp.tool(pw.pw_get_diagnostic_state)
+mcp.tool(pw.pw_get_qos_state)
+mcp.tool(pw.pw_get_network_map)
+mcp.tool(pw.pw_get_device_info)
+mcp.tool(pw.pw_read_page_raw)
+
+
+# ──────────────────────────────────────────────────────────────────
+#  Playwright-backed WRITE tools (drive UI forms)
+#  IMPORTANT: invoking any of these makes a real change to the router.
+# ──────────────────────────────────────────────────────────────────
+
+mcp.tool(pww.pw_drive_form_raw)
+# DMZ
+mcp.tool(pww.pw_set_dmz)
+# Firewall
+mcp.tool(pww.pw_set_firewall)
+# ALG
+mcp.tool(pww.pw_set_alg)
+# UPnP
+mcp.tool(pww.pw_set_upnp)
+# Port forwarding
+mcp.tool(pww.pw_add_port_forward)
+mcp.tool(pww.pw_remove_port_forward)
+# DHCP
+mcp.tool(pww.pw_add_dhcp_reservation)
+mcp.tool(pww.pw_remove_dhcp_reservation)
+mcp.tool(pww.pw_set_dhcp_range)
+# LAN
+mcp.tool(pww.pw_set_lan_ip)
+# WAN / DNS
+mcp.tool(pww.pw_set_wan_dns)
+mcp.tool(pww.pw_revert_wan_dns_to_isp)
+# Wireless
+mcp.tool(pww.pw_set_wifi_password)
+mcp.tool(pww.pw_set_wifi_ssid)
+mcp.tool(pww.pw_toggle_wifi)
+mcp.tool(pww.pw_set_wifi_security)
+# IPv6
+mcp.tool(pww.pw_set_ipv6)
+# EasyMesh / Smart Connect
+mcp.tool(pww.pw_set_smart_connect)
+# Time / NTP
+mcp.tool(pww.pw_set_ntp_server)
+# Scheduled reboot
+mcp.tool(pww.pw_set_scheduled_reboot)
+# Access control
+mcp.tool(pww.pw_set_access_control)
+# VPN client
+mcp.tool(pww.pw_set_vpn_client)
+# Destructive
+mcp.tool(pww.pw_reboot_router_now)
+mcp.tool(pww.pw_factory_reset)
+mcp.tool(pww.pw_change_admin_password)
 
 
 def main() -> None:

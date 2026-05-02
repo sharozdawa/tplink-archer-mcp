@@ -1,0 +1,1 @@
+import{bv as s,bw as a}from"./su-Bm64L54G.js";import{d as o}from"./index-D26yCMJF.js";import{d as e,aV as r,l as t,u as n,v as m}from"./vendor-BrE4IMR2.js";const i=e({__name:"HostDefaultIcon",setup(e){const i=o(),{a11yConfig:d}=r(i);return(o,e)=>n(d).increaseContrast?(m(),t(n(s),{key:0})):(m(),t(n(a),{key:1}))}});export{i as _};

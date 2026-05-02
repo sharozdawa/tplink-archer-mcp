@@ -1,0 +1,1 @@
+import{s as r}from"./update-store-DQkZxaRI.js";const t="/admin/reboot?form=set";function e(){return r.read(t)}function o(e){return r.write(t,e)}const n="/admin/system?form=reboot";function s(){return r.request(n,{operation:"reboot"},{preventSuccess:!0})}function u(t){return r.write(n,t,{preventSuccess:!0})}export{o as a,e as g,s as r,u as s};

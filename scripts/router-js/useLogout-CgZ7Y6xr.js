@@ -1,0 +1,1 @@
+import{A as o}from"./update-store-DQkZxaRI.js";import{l as t}from"./index-Cd9lOeyT.js";import{b7 as r}from"./vendor-BrE4IMR2.js";function a(){const a=r();async function n(){o.reset(),await a.replace({name:"login"})}return{logout:n,forceToLogout:async function(){try{await t()}catch(o){}n()}}}export{a as u};

@@ -1,0 +1,1 @@
+import{_ as s}from"./_plugin-vue_export-helper-BCo6x5W8.js";import{n as a,v as r,z as e}from"./vendor-BrE4IMR2.js";const n={class:"map-split"};const o=s({},[["render",function(s,o){return r(),a("div",n,o[0]||(o[0]=[e("div",{class:"map-split__line"},null,-1)]))}],["__scopeId","data-v-57d54fad"]]);export{o as M};

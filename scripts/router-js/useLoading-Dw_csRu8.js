@@ -1,0 +1,1 @@
+import{r as a,u as n}from"./vendor-BrE4IMR2.js";function t(t){const o=a(!1);return{loading:o,event:async(...a)=>{try{o.value=!0;const r=n(t);r&&await r.apply({},a)}finally{o.value=!1}}}}export{t as u};

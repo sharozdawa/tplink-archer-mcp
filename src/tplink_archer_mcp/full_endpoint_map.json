@@ -1,0 +1,525 @@
+{
+  "admin/cloud_account?form=auto_update_remind": {
+    "form": "auto_update_remind",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=check_device": {
+    "form": "check_device",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=check_internet": {
+    "form": "check_internet",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=check_upgrade": {
+    "form": "check_upgrade",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=cloud_bind_status": {
+    "form": "cloud_bind_status",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=cloud_unbind": {
+    "form": "cloud_unbind",
+    "operations": [
+      "write"
+    ],
+    "files_read": 0,
+    "files_write": 1
+  },
+  "admin/cloud_account?form=detect_upgrade_status": {
+    "form": "detect_upgrade_status",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=get_deviceInfo": {
+    "form": "get_deviceInfo",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=get_token": {
+    "form": "get_token",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/cloud_account?form=user_login": {
+    "form": "user_login",
+    "operations": [
+      "write"
+    ],
+    "files_read": 0,
+    "files_write": 1
+  },
+  "admin/ddns?form=provider": {
+    "form": "provider",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/easymesh?form=get_status": {
+    "form": "get_status",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/easymesh?form=start_mesh_status_check": {
+    "form": "start_mesh_status_check",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/easymesh_network?form=ap_avoidance_enable_status": {
+    "form": "ap_avoidance_enable_status",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/easymesh_network?form=change_satellite": {
+    "form": "change_satellite",
+    "operations": [
+      "write"
+    ],
+    "files_read": 0,
+    "files_write": 1
+  },
+  "admin/easymesh_network?form=get_mesh_device_list_all": {
+    "form": "get_mesh_device_list_all",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/easymesh_network?form=mesh_sclient_list_all": {
+    "form": "mesh_sclient_list_all",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/iptv?form=udp_proxy_setting": {
+    "form": "udp_proxy_setting",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/l2tpoveripsec?form=config": {
+    "form": "config",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/nat?form=client_list_v6": {
+    "form": "client_list_v6",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/nat?form=setting": {
+    "form": "setting",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=lan_agg": {
+    "form": "lan_agg",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=lan_fc": {
+    "form": "lan_fc",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=lan_ipv4": {
+    "form": "lan_ipv4",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=mac_clone_advanced": {
+    "form": "mac_clone_advanced",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=multi_wan_internet_status": {
+    "form": "multi_wan_internet_status",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/network?form=network_access_detect": {
+    "form": "network_access_detect",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/network?form=port_speed_current": {
+    "form": "port_speed_current",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=port_speed_supported": {
+    "form": "port_speed_supported",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/network?form=status_ipv4": {
+    "form": "status_ipv4",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/network?form=wan_fc": {
+    "form": "wan_fc",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_bigpond": {
+    "form": "wan_ipv4_bigpond",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_dynamic": {
+    "form": "wan_ipv4_dynamic",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_l2tp": {
+    "form": "wan_ipv4_l2tp",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_ocn": {
+    "form": "wan_ipv4_ocn",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_pppoe": {
+    "form": "wan_ipv4_pppoe",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_pptp": {
+    "form": "wan_ipv4_pptp",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_staticip": {
+    "form": "wan_ipv4_staticip",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv4_v6plus": {
+    "form": "wan_ipv4_v6plus",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/network?form=wan_ipv6_pass": {
+    "form": "wan_ipv6_pass",
+    "operations": [
+      "write"
+    ],
+    "files_read": 0,
+    "files_write": 1
+  },
+  "admin/network?form=wan_port_status": {
+    "form": "wan_port_status",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/portal?form=portal": {
+    "form": "portal",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/quick_setup?form=check_support_extender_guidance": {
+    "form": "check_support_extender_guidance",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/quick_setup?form=status": {
+    "form": "status",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/smart_network?form=get_host_info": {
+    "form": "get_host_info",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=all": {
+    "form": "all",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=cloud_login_window_pop": {
+    "form": "cloud_login_window_pop",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/status?form=internet": {
+    "form": "internet",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=network_map": {
+    "form": "network_map",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=portal_detect": {
+    "form": "portal_detect",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=router": {
+    "form": "router",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=status_wireless_multi_ssid": {
+    "form": "status_wireless_multi_ssid",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=wan_dual_nat_state": {
+    "form": "wan_dual_nat_state",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/status?form=wan_speed": {
+    "form": "wan_speed",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/system?form=ex_mode_switch": {
+    "form": "ex_mode_switch",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/traffic?form=dev_name": {
+    "form": "dev_name",
+    "operations": [
+      "write"
+    ],
+    "files_read": 0,
+    "files_write": 1
+  },
+  "admin/usbmodem?form=isplist": {
+    "form": "isplist",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/usbmodem?form=modemset": {
+    "form": "modemset",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/wifidog?form=portal_background": {
+    "form": "portal_background",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/wifidog?form=portal_logo": {
+    "form": "portal_logo",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/wireless?form=eco": {
+    "form": "eco",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  },
+  "admin/wireless?form=portal_content": {
+    "form": "portal_content",
+    "operations": [
+      "read",
+      "write"
+    ],
+    "files_read": 1,
+    "files_write": 1
+  },
+  "admin/yandex_dns?form=enable": {
+    "form": "enable",
+    "operations": [
+      "read"
+    ],
+    "files_read": 1,
+    "files_write": 0
+  }
+}

@@ -1,0 +1,1 @@
+import{aY as e}from"./vendor-BrE4IMR2.js";function t(){const{t:t}=e();return{networkTableHeader:[{text:t("wireless.band"),value:"band",width:80},{text:t("wireless.networkName"),value:"ssid",space:!0},{text:t("wireless.password"),value:"password"},{text:t("networkMap.channel"),value:"channel",width:180},{text:t("common.status"),value:"status",width:80}]}}export{t as u};

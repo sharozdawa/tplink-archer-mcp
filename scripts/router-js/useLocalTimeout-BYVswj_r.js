@@ -1,0 +1,1 @@
+import{ai as e}from"./vendor-BrE4IMR2.js";function o(){let o=-1;const i=()=>{window.clearTimeout(o)};return e(i),{promiseTimeout:e=>(i(),new Promise(((i,r)=>{o=window.setTimeout(i,1e3*e)}))),clearTimer:i}}export{o as u};

@@ -1,0 +1,1 @@
+import{g as s,s as a}from"./easymesh-Co9DAaFu.js";import{e,f as n}from"./update-store-DQkZxaRI.js";async function t(){const{enable:a}=await s();return{enable:e(a)}}async function r(s){return a(n(s))}export{t as g,r as s};

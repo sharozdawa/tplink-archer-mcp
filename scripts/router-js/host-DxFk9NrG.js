@@ -1,0 +1,1 @@
+import{g as r}from"./smartNetwork-BsuVBI-s.js";import{W as t}from"./smartNetwork-CfoewCaU.js";import{aU as s,r as o}from"./vendor-BrE4IMR2.js";const a=s("host",(()=>{const s=o(t.Wired),a=o("");return{wireType:s,hostMac:a,init:async()=>{const t=await r();s.value=t.wire_type,a.value=t.host_mac}}}));export{a as u};

@@ -1,0 +1,960 @@
+{
+  "/cgi-bin/luci/;stok=/locale?form=country": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"country\":\"US\"}}"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"country\":\"US\"}}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/locale?form=lang": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"locale\":\"en_US\",\"region_select_permission\":\"no\",\"model\":\"AX3000 Gigabit Wi-Fi 6 Router\",\"force\":false,\"rebootTime\":128}}"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"locale\":\"en_US\",\"region_select_permission\":\"no\",\"model\":\"AX3000 Gigabit Wi-Fi 6 Router\",\"force\":false,\"rebootTime\":128}}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/locale?form=list": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":[{\"name\":\"BG_BG\",\"value\":\"bg_BG\"},{\"name\":\"CS_CZ\",\"value\":\"cs_CZ\"},{\"name\":\"DA_DK\",\"value\":\"da_DK\"},{\"name\":\"DE_DE\",\"value\":\"de_DE\"},{\"name\":\"EN_US\",\"value\":\"en_US\"},{\"name\":\"ES_ES\",\"value\":\"es_ES\"},{\"name\":\"FI_FI\",\"value\":\"fi_FI\"},{\"name\":\"FR_FR\",\"value\":\"fr_FR\"},{\"name\":\"HU_"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":[{\"name\":\"BG_BG\",\"value\":\"bg_BG\"},{\"name\":\"CS_CZ\",\"value\":\"cs_CZ\"},{\"name\":\"DA_DK\",\"value\":\"da_DK\"},{\"name\":\"DE_DE\",\"value\":\"de_DE\"},{\"name\":\"EN_US\",\"value\":\"en_US\"},{\"name\":\"ES_ES\",\"value\":\"es_ES\"},{\"name\":\"FI_FI\",\"value\":\"fi_FI\"},{\"name\":\"FR_FR\",\"value\":\"fr_FR\"},{\"name\":\"HU_"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/device_config?form=config": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/accessibility?form=accessibility_state": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"increase_contrast\":\"off\",\"hide_animation\":\"off\"}}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/login?form=keys": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"password\":[\"AACE0B6874B128079237716963B01A653CD69171266BD5B908735B5426D84BA53E3E6A2D8E8F7A708E57F23C67A70FE416E10310CDCC3A9C6A184C318C0CC3B205C83B6A1AE534B7F2111E08917424D4DEA18600E97238C6D22537CDF276F4C2F47BBB4EF3EB8B27EAD7C906197779BDE85D6C64724001889E03D6D9F8527810D502085"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/login?form=sysmode": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"support\":\"yes\",\"mode\":\"router\"}}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/login?form=check_factory_default": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"is_default\":false}}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/domain_login?form=dlogin": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"dst_addr\":\"0.0.0.0\",\"hide_forgetpassword\":\"no\",\"redirect\":\"\",\"dst_webpath\":\"/\",\"conflict\":false,\"mode\":0,\"domain\":\"tplinkwifi.net\",\"new_addr\":\"192.168.0.1\"}}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/login?form=auth": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"key\":[\"CC0F93705C2823D2F7578EFEC697EF7F4D831C010146C8F0B9A7A9D09991092C43FC881379FE4254AB7227818F48A42D4E123E0C11B86F7429D5B593CF61BF2CB9B76FC32452B6DA3C1B0433581CF5EEAE175D667170E8DBFE607C286959D18C7ED9ADF24FAC8BEEA9C760A4F55E4D1426726214C0C1AEC466BD4C367EE48AB9D996301A3702"
+    }
+  ],
+  "/cgi-bin/luci/;stok=/login?form=login": [
+    {
+      "wire_size": 2321,
+      "wire_preview": "sign=23c9b0b8234476765dae3c1df646e3a01bd168613e0244f4fab2d3dcd302a47810f4be4315eed424ba43e17acf9ef1a88aa2c05e26d4a6810492f9c638b2cafa916b780a34487a640ee1472a604ec7809c7b87a0f2106989a52bb9225f064362acd",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zrouWLk5PuQPwFeqwR9uwK9W5r0VpphSUH3jkeybvlPBtGcPXr07KSHm1uGEpmFXwwGuvc54lOtytKJ1kCN8jtQ=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/system?form=sysmode": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zoJBYpW8OY7TPwK3iA6UzwWmqNUSchkhTbTwPX5W3OlWVE+2ZDZ/aGOK+YZUfoxKJw==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zoJBYpW8OY7TPwK3iA6UzwWmqNUSchkhTbTwPX5W3OlWVE+2ZDZ/aGOK+YZUfoxKJw==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/firmware?form=upgrade": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zqgivUpyDigrS/MqgTk5BaU/LDhAMjNEx3fAJon4PRH72BvJgLDh77kC033X8utaPwpWcngTpyB3FSrT+xXpCHPZOcrapnIb2Q2kqeLy7PPxjT9n0bxBGsT36ySlV9wu+77x4g5WbJe+xjkWgAOe+DXdJEuPNpldOTi5BIk8vvkn06Tu4YKZVukxuYAE41gcm1ylDUoFypQpVxp5OvVw8mDTk8ohwaiRc2P8ZpNtl4H/cw1k6k4bQLZpCCIWnrp43iszM/AwEOybhJz"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/device_config?form=config": [
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    },
+    {
+      "wire_size": 14,
+      "wire_preview": "operation=read",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"success\":true,\"data\":{\"supportVpnServerType\":[\"wireguard\",\"openvpn\",\"pptpvpn\"],\"supportWifi7\":false,\"supportUdpProxy\":false,\"supportSpeedTest\":false,\"dialHiddenFunction\":{\"pptp\":{\"modules\":[\"dotDoh\"],\"features\":{\"vpnClient\":{},\"internet\":{},\"alg\":{},\"connections\":{}}},\"l2tp\":{\"modules\":{},\"feature"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=wan_ipv4_status": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zsa3dy3YIiJ4icZY1rCqX7xRJ00OlyeG0/d/SRphqG+kP2lo1HjZcuGkuRVjwCpnwg==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zsa3dy3YIiJ4icZY1rCqX7xRJ00OlyeG0/d/SRphqG+kP2lo1HjZcuGkuRVjwCpnwg==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zsa3dy3YIiJ4icZY1rCqX7xRJ00OlyeG0/d/SRphqG+kP2lo1HjZcuGkuRVjwCpnwg==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/cloud_account?form=check_upgrade": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zthmjjQk5FjxKMWjCKvB9/Nv6JQ9ojPRwSePAs1uYckS\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/privacy_policy?form=fing_auth_state": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9menYUFdwoP6XZRle7KYSsXRbdhbbOnYOPfDmyBG+K991Sg==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9menYUFdwoP6XZRle7KYSsXRbdhbbOnYOPfDmyBG+K991Sg==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/cloud_account?form=auto_update_remind": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"PrtbOiczjByvBWIFokyTbu3/tiqJLLi3lHE7k8yHib8=\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"PrtbOiczjByvBWIFokyTbu3/tiqJLLi3lHE7k8yHib8=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/firmware?form=slave_cmd": [
+    {
+      "wire_size": 187,
+      "wire_preview": "sign=21dcebbde3e9855d9863f6185a95e45d54a5ee820e20bb96b884868b8ef4de376bb8c97c663accb745b932306acbf96767fefeef77c8a310ad9fb6a835758ed1&data=ZU6qhSAQdcFlm%2BvMBxsoQWNMFLz8Up3O4k46jTeyMUE%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgvxfU2O6fAMFd+zSDPFeo/O+eg6KCE5nkd3QGRaUJKAM+y5MGnMGOmjQ9HgVNO/ZMFjo7udMovl+MEZ84dUSjMBf+BgjNlQCIOPimhH1E8dF9HZx1oJMH828NUkKPyppqUwncfOINjq0iGey0n0pr7icUZq8h+5OqgaztZANnpZEfR37A3nyd5ZEUt1zDDfIjBM6MRUMLx2bG3qc2v8tQRfwD6JtOw93xNBrYvGeJi3r/udzD4bGKswHID"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/cloud_account?form=remind": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zj/FPLXresWZTO8PYKp8vCwqG1PkHqay0S/J8R3/QZozGA/g2VEfBNBmFsL6SnLheg==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zj/FPLXresWZTO8PYKp8vCwqG1PkHqay0S/J8R3/QZozGA/g2VEfBNBmFsL6SnLheg==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/easymesh?form=easymesh_enable": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9melbbmORWRsLJgAnpT5zWQFc/VSN2wNXdQBNWBdvhy0TnA==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9melbbmORWRsLJgAnpT5zWQFc/VSN2wNXdQBNWBdvhy0TnA==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9melbbmORWRsLJgAnpT5zWQFc/VSN2wNXdQBNWBdvhy0TnA==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/status?form=cloud_login_window_pop": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zvWn5e1HWGXJdvwNnrFTRr2aBekKFn4JfrfJGaG6aTHLhtJdQwT+n02MSIPdItkjTqS99sfEW8F46htUPS6PnHPLOjeCMmMDx5nY6lVQQ40x\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zvWn5e1HWGXJdvwNnrFTRr2aBekKFn4JfrfJGaG6aTHLhtJdQwT+n02MSIPdItkjTqS99sfEW8F46htUPS6PnHPLOjeCMmMDx5nY6lVQQ40x\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/cloud_account?form=get_deviceInfo": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zvrEfeCetFTr84gGgbPwqaCwtMHu5BztVFIfvXdcdzSv\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zvrEfeCetFTr84gGgbPwqaCwtMHu5BztVFIfvXdcdzSv\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/status?form=network_map": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"SdHfDEOuFJNlJnUJ1THiy8fTY1Eennnq2CLtD+efO31r1kjIkNF2I8jCWWdL5ID4bHV6RJD6ysigd0HddMHwsQ==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"SdHfDEOuFJNlJnUJ1THiy8fTY1Eennnq2CLtD+efO31r1kjIkNF2I8jCWWdL5ID4bHV6RJD6ysigd0HddMHwsQ==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/status?form=internet": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zn36+iWi7UY/qJuFjdV2uWWqHRmW3A5UIlVlhvLrmQcc79Z9iisnAnQvUGdWiOpegU4/VZ1dP7BduLaiaHufcQChfr1PeLnfX5SvagCvu1m/YNGogYqHP23qIMy4SqtqgrRhQvlaHFzjdV7olSuC0X8=\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zn36+iWi7UY/qJuFjdV2uWWqHRmW3A5UIlVlhvLrmQcc79Z9iisnAnQvUGdWiOpegU4/VZ1dP7BduLaiaHufcQChfr1PeLnfX5SvagCvu1m/YNGogYqHP23qIMy4SqtqgrRhQvlaHFzjdV7olSuC0X8=\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zn36+iWi7UY/qJuFjdV2uWWqHRmW3A5UIlVlhvLrmQcc79Z9iisnAnQvUGdWiOpegU4/VZ1dP7BduLaiaHufcQChfr1PeLnfX5SvagCvu1m/YNGogYqHP23qIMy4SqtqgrRhQvlaHFzjdV7olSuC0X8=\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zn36+iWi7UY/qJuFjdV2uWWqHRmW3A5UIlVlhvLrmQcc79Z9iisnAnQvUGdWiOpegU4/VZ1dP7BduLaiaHufcQChfr1PeLnfX5SvagCvu1m/YNGogYqHP23qIMy4SqtqgrRhQvlaHFzjdV7olSuC0X8=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/easymesh_network?form=get_mesh_device_list_all": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgtT+JCarfAyUPScI6Ny8EpXeLp6CiycdjiTrWeUEExmtrQgF4EmRw6pWBh6UAgEJTBY1gc1lWl4tEYl+BoBwVS82Hj83yFzTOPPnlp/aPDXSj9TFVL1xLEPGm7V742qwYj0wxt7J5OisvGYRpTrVt7/jBn3AtYO2rN7K/xH3k07lXPIMSjjJx2FpYbJTF0ptaNJKMpQdPBsT/Huu1ot6O6iCNMoe6Gkse+44L5C1b4zivPZ8uz4FFR7oG5"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgtT+JCarfAyUPScI6Ny8EpXeLp6CiycdjiTrWeUEExmtrQgF4EmRw6pWBh6UAgEJTBY1gc1lWl4tEYl+BoBwVS82Hj83yFzTOPPnlp/aPDXSj9TFVL1xLEPGm7V742qwYj0wxt7J5OisvGYRpTrVt7/jBn3AtYO2rN7K/xH3k07lXPIMSjjJx2FpYbJTF0ptaNJKMpQdPBsT/Huu1ot6O6iCNMoe6Gkse+44L5C1b4zivPZ8uz4FFR7oG5"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgtT+JCarfAyUPScI6Ny8EpXeLp6CiycdjiTrWeUEExmtrQgF4EmRw6pWBh6UAgEJTBY1gc1lWl4tEYl+BoBwVS82Hj83yFzTOPPnlp/aPDXSj9TFVL1xLEPGm7V742qwYj0wxt7J5OisvGYRpTrVt7/jBn3AtYO2rN7K/xH3k07lXPIMSjjJx2FpYbJTF0ptaNJKMpQdPBsT/Huu1ot6O6iCNMoe6Gkse+44L5C1b4zivPZ8uz4FFR7oG5"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgtT+JCarfAyUPScI6Ny8EpXeLp6CiycdjiTrWeUEExmtrQgF4EmRw6pWBh6UAgEJTBY1gc1lWl4tEYl+BoBwVS82Hj83yFzTOPPnlp/aPDXSj9TFVL1xLEPGm7V742qwYj0wxt7J5OisvGYRpTrVt7/jBn3AtYO2rN7K/xH3k07lXPIMSjjJx2FpYbJTF0ptaNJKMpQdPBsT/Huu1ot6O6iCNMoe6Gkse+44L5C1b4zivPZ8uz4FFR7oG5"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgtT+JCarfAyUPScI6Ny8EpXeLp6CiycdjiTrWeUEExmtrQgF4EmRw6pWBh6UAgEJTBY1gc1lWl4tEYl+BoBwVS82Hj83yFzTOPPnlp/aPDXSj9TFVL1xLEPGm7V742qwYj0wxt7J5OisvGYRpTrVt7/jBn3AtYO2rN7K/xH3k07lXPIMSjjJx2FpYbJTF0ptaNJKMpQdPBsT/Huu1ot6O6iCNMoe6Gkse+44L5C1b4zivPZ8uz4FFR7oG5"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zijXlGIJeaih7v7zuGoEBgtT+JCarfAyUPScI6Ny8EpXeLp6CiycdjiTrWeUEExmtrQgF4EmRw6pWBh6UAgEJTBY1gc1lWl4tEYl+BoBwVS82Hj83yFzTOPPnlp/aPDXSj9TFVL1xLEPGm7V742qwYj0wxt7J5OisvGYRpTrVt7/jBn3AtYO2rN7K/xH3k07lXPIMSjjJx2FpYbJTF0ptaNJKMpQdPBsT/Huu1ot6O6iCNMoe6Gkse+44L5C1b4zivPZ8uz4FFR7oG5"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/cloud_account?form=cloud_upgrade": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zjmwmgXR5BC3MhLHO2ZOOsT2DRo1aePky8SeErtELhslLIzPPvYiWFuwT9CUSyARFGnaw1WQQdVDwMKqh2fKkr8isz90oAbdYEacHvhqLJbWc1V2TT5h74BLoDRFi7I4QA==\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zjmwmgXR5BC3MhLHO2ZOOsT2DRo1aePky8SeErtELhslLIzPPvYiWFuwT9CUSyARFGnaw1WQQdVDwMKqh2fKkr8isz90oAbdYEacHvhqLJbWc1V2TT5h74BLoDRFi7I4QA==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/status?form=all": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zhIkZeWtUMK8FTD931VJwgkmniz+4q25BkXn/4c8x6XeRy/+KkjIF/bZfJ41hEFOcb7qh1OoHLKESvszaDr82boF3gb81z86lasP6Qu6Pkit697UAAHOvZp+cuTZD7EJIctoC0Bbwq4qYyDECQk7LRSpXP83spv4cgGJeu3U7taebdQZCIPKCppG5RXg01ek0s1hQ1tnoKBz/HU8nHI06ofwxB7EW3alvm1V7UKFnc6Y90hFbbfaD2zBscL2ijDXWbTNMwTD8BNyli4"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zhIkZeWtUMK8FTD931VJwgkmniz+4q25BkXn/4c8x6XeRy/+KkjIF/bZfJ41hEFOcb7qh1OoHLKESvszaDr82boF3gb81z86lasP6Qu6Pkit697UAAHOvZp+cuTZD7EJIctoC0Bbwq4qYyDECQk7LRSpXP83spv4cgGJeu3U7taebdQZCIPKCppG5RXg01ek0s1hQ1tnoKBz/HU8nHI06ofwxB7EW3alvm1V7UKFnc6Y90hFbbfaD2zBscL2ijDXWbTNMwTD8BNyli4"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zhIkZeWtUMK8FTD931VJwgkmniz+4q25BkXn/4c8x6XeRy/+KkjIF/bZfJ41hEFOcb7qh1OoHLKESvszaDr82boF3gb81z86lasP6Qu6Pkit697UAAHOvZp+cuTZD7EJIctoC0Bbwq4qYyDECQk7LRSpXP83spv4cgGJeu3U7taebdQZCIPKCppG5RXg01ek0s1hQ1tnoKBz/HU8nHI06ofwxB7EW3alvm1V7UKFnc6Y90hFbbfaD2zBscL2ijDXWbTNMwTD8BNyli4"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zhIkZeWtUMK8FTD931VJwgkmniz+4q25BkXn/4c8x6XeRy/+KkjIF/bZfJ41hEFOcb7qh1OoHLKESvszaDr82boF3gb81z86lasP6Qu6Pkit697UAAHOvZp+cuTZD7EJIctoC0Bbwq4qYyDECQk7LRSpXP83spv4cgGJeu3U7taebdQZCIPKCppG5RXg01ek0s1hQ1tnoKBz/HU8nHI06ofwxB7EW3alvm1V7UKFnc6Y90hFbbfaD2zBscL2ijDXWbTNMwTD8BNyli4"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/smart_network?form=game_accelerator": [
+    {
+      "wire_size": 187,
+      "wire_preview": "sign=5e1a3b58421ebec2378e2c864cf67d3692d8a87e90dd11ff5d762105535c882eb1f18327144b614148d464165c9bfb00b350e61b5838b6910a493f3435a08863&data=0zabQBbzIcgH3fdKZEMkUIy9SZgMQeWAs81t%2BerB56o%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0znSX6T1CxcFAkJKgRvx7wWR5MwCQaI/PCXA3DMEdF6VViYzD57xM/bZAg8slprX604QGbobRiYoFmfReqiQLkIyt1tzyEHVxIzIYt3h4iZZYgdq+RYsEG3a2tpW81Zls9GNga+hMG0qpcqqcd2kMVWSThk0KQf8enROM264LiiqiHaJGKAZFMCP927g3muDHHTnVoB5gA7vDYJ08Nys8QmDKSyojeq1XsGW+z6V7zuYF2v/5InXLotqZ9CKN2ceKCB/7E8OznCCrLgC"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/pptpd?form=config": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zqIJJ2l+zVSoWo2aGNaL4Slhn9Af+V/nKY76WrERVK20jr+tm/4BMojYDpDCAhRKYtE3PvW1okE2CY51jJrZEcCg4MfO8vrAbl8bmr7B1bvIM1f+ZsHeTNz8XXiL1c3MuZXOdGfGQY7TzuQe56WdWmOFLFqdq++0ziL6c1XygQlW\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/l2tpoveripsec?form=config": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"EhGaezlUgrjZW1z4TcOaGu5Y6IAFh/cgwxX7ocbfPdiUI4cP201gH9XGf7Rr0LsBKJpdqAskw1v1CykGB/GMoA==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/dhcps?form=reservation": [
+    {
+      "wire_size": 169,
+      "wire_preview": "sign=e9c1afe7ebb74e87835ab6b35963c0c9d90e517352f6beb7e99b56c034811fd68cc45dc4a5380ea5d7d83dbed7114a38ca70e21153f1889b3c9aa36b898c85e5&data=KZR5niudmkC%2FoVV6g9CfPg%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"vgfO1irPiPFaPZ5vYwF9TOgntY/rkfO+Oxqjtd8Mhz1n+WxyasOrshnAPqlAcnU9EAHDylO1tLh+B04LEMRTYtpnNTSHRZJtpwW/6k3fpZrFDNHCOA+vx9UJUb+5IkBVACRyNB4LPpnmSy+Swmff7TCtGlzm7l1679cvWx8h6IV/Hyxc1KTwJkI6f7bXItca94KILPfsEqVcLpA/LLrgl3BH1LFIWIirHA0c6WPkkpo8jw1M6CxUd8VfFfXmPPKsXdxypYz9SnrtQWsKdBW5fkYC7SFQQ45oHFb"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=lan_ipv4": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zncO/lIjyuaA3WdVIablgI+MCJsbOBlM0YH2uQFVC3d1KsqvMFU39rvIR4a6U/Tz4O2hQpCtkQLfOnCYX033wOHvMyFaWn5xRejyZ6Yt5T9uqsNVLzRoeVqstpU7LH9tTql4e7uysLpCjQp3Ipu908u92U3hs65oiG3/s7YTggajbZhyPZEtq5B1JXB//4VnpHdzWGtwCeKV1FwGNUl7z9w=\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zncO/lIjyuaA3WdVIablgI+MCJsbOBlM0YH2uQFVC3d1KsqvMFU39rvIR4a6U/Tz4O2hQpCtkQLfOnCYX033wOHvMyFaWn5xRejyZ6Yt5T9uqsNVLzRoeVqstpU7LH9tTql4e7uysLpCjQp3Ipu908u92U3hs65oiG3/s7YTggajbZhyPZEtq5B1JXB//4VnpHdzWGtwCeKV1FwGNUl7z9w=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/dhcps?form=setting": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9melGTdHYt5dJalnUpQcDSjj7XBV1lZTm/DwLUcZ7dvDRJZmhO8B/iPtcV8Jb9x6zuT+xAchP/hVh8AhE8VWc9DRTjx6pzyqxaXdfklDpPNN4JBkLj2C3+3enNfPdsUVRk8TPEvXexaA/nno82KpnvOnbCZdRXAK6gqhkj+M/uKI+w0jOlnO+i8qi/AyfhBXtvx6wWPy9riBtcIaTGmMfm9M3qV4S3Km7ywYrLGXN81tCZQ==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/dhcps?form=client": [
+    {
+      "wire_size": 169,
+      "wire_preview": "sign=e9c1afe7ebb74e87835ab6b35963c0c9d90e517352f6beb7e99b56c034811fd68cc45dc4a5380ea5d7d83dbed7114a38ca70e21153f1889b3c9aa36b898c85e5&data=KZR5niudmkC%2FoVV6g9CfPg%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zoN7Scb+xT7inmXsMVw+plBy5W6ZnWhFOGQdAMbjLA7ixQh0G92+KoJcp8Wbqv8tYuzBOJ2y3syNe0h+8Aw32Xm5UsR7tBv1gB54hlHUI0QJ5RCd5bUNvKaaY4GzADG/KvTgPrlZls2t9nAQyXHBZ9FeEkjHk1OPqN+VWesgi49cZ5nBQHkoZl0cR89U0RQiNPLoRDXRAlT3KpqkO3GUtGcBUpEKOwSkwStte0jWuoMBXiehR7d8YPyAUXgsx+TsYn0IJ88yIhy6dWO"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/nat?form=vs": [
+    {
+      "wire_size": 169,
+      "wire_preview": "sign=e9c1afe7ebb74e87835ab6b35963c0c9d90e517352f6beb7e99b56c034811fd68cc45dc4a5380ea5d7d83dbed7114a38ca70e21153f1889b3c9aa36b898c85e5&data=KZR5niudmkC%2FoVV6g9CfPg%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"vgfO1irPiPFaPZ5vYwF9TOgntY/rkfO+Oxqjtd8Mhz1n+WxyasOrshnAPqlAcnU9b8clEsb9tddcwWVKzxXodSh62v8eS+FBgdjqG7yd0TwudhBVUMt0GEvgk54Tfm3Q4u3tec8yjI1JmvtzaIcfvwMsI4UUbddasox6LIOGWHY9t2wO2m40uadlkTb8gCMO0rxWP9JdxO7eEo9mwte/L0aS68Wbv0qzcGnm2syRa/0=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/nat?form=dmz": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9mekAf8scCAeVRs7jPleC39yGMglin2nZ2M33vyXgAtcJkA==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/nat?form=setting": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0ztqhbU7/KpWR//mJvO2eqPo3zQxA/0CDP/EjyUIOM/5wrCT1kkJbp4kDGwiHTviU+3lCtsoNIu3A42g+Ue+6hyXRGUhJn2kM9e0jm1WlzmEucdB+raWdz9M3KhHRvc3DvfEs1CQvqJUqU8hrhkzJXtOZaPrBoBUFSK9PWePLE6jseOW4heAtZEteElFzRKVMle+UxxeQMYyteVyCr2hJ0GU=\"}"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0ztqhbU7/KpWR//mJvO2eqPo3zQxA/0CDP/EjyUIOM/5wrCT1kkJbp4kDGwiHTviU+3lCtsoNIu3A42g+Ue+6hyXRGUhJn2kM9e0jm1WlzmEucdB+raWdz9M3KhHRvc3DvfEs1CQvqJUqU8hrhkzJXtOZaPrBoBUFSK9PWePLE6jseOW4heAtZEteElFzRKVMle+UxxeQMYyteVyCr2hJ0GU=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/security_settings?form=new_enable": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9melsAAZv8RuebaErnx5kLPKkodsXQDEruu9ZAJythcDkCeQizdsLhH696P9aVcUVeAA=\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=wan_ipv4_protos": [
+    {
+      "wire_size": 185,
+      "wire_preview": "sign=6a024babc6d58738da08153b799a9e7253831a948afe5efb5fdee424e6780cae6f094d370e8ee2585f99f2560a948b792f3fd0927af213e4c8998508d855a6a2&data=pypaJbkCRpvZDrVLrvNy8egEnLPLsHwMo71HKwSuUOQ%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zpw9kDbyZGSfjg1FfM2kQs1rhFjgipRX9LlvXjUwBlRRIHP6vda4Iv8fjPkjll4mKz9CB+ktFlC+d1c0JRrGKbSUT7G9/dEyxOPS4zp+WSHXafbB3W5PPLPjRMS3T47a0IUtu6e1+7bTdH5tqxxxvB1795/kqcDGEyT0V1BJ0LbcmGIJOR+ThkBXHgffcvmIT4VwTtx4+RfACY/7b0ZHffiGnQibKA566bLwxICTR2VrgaMSzovuAl1pNpnz2WobvQ==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=status_ipv4": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0znH+TfNQa5NLZe7zrim1EXzMsyUkD6TmceMnvoatdqpmGIL/SQUInzwygwoxUjzy+mJ9jCsq+Md3O7vUwkI+FH0Gsx7wNE2QRZmsh+kouWF+400pxuMs5kUznySEju7bYmzch+Z0m7r3pDD/sIFzAj1FfFQhC86qn1zT0ABNmlnPmfVoQcdJ329W2Dwdw8dqSX19iZqy56OLbVAcr7dzibiJ761pd4OUCyQPOC//wb7LLhUQVKo5n6U1AjLPfWS3OTKvX4ywHwjNjYm"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=wan_ipv4_pppoe": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zpQNQfEj1bSzy4JtAlb91m9f3ffh29JeLutJyXlhpuEp4AmzZ54Bmnle+zBGLpAJgb3ftRhnFnaehkYagbJy7Wf3p+IaBe9q/qePQdqmjW/8TOeiWBvNWM9wWOv7m8JXmWDAgPORy/pGNnC8QeLBv1OpVi7xjl+bds2Bi6cE/fhubNnFNiCvgWIUG7TTXjFBwHaD0nYeW70cWHVhk0TeBFMr9YRLu80erz6nZkJec5nJJ1PENfzEE89DSHzJZp63Z4Bv7fiNa9ABupX"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/upnp?form=enable": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9mek2vc63mu7wH2yexV2hOSb+\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/upnp?form=service": [
+    {
+      "wire_size": 169,
+      "wire_preview": "sign=e9c1afe7ebb74e87835ab6b35963c0c9d90e517352f6beb7e99b56c034811fd68cc45dc4a5380ea5d7d83dbed7114a38ca70e21153f1889b3c9aa36b898c85e5&data=KZR5niudmkC%2FoVV6g9CfPg%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zoN7Scb+xT7inmXsMVw+plABFU7grgElk45B7XcVzllP2ogdJS3kGKdUKrRDTUyxotSXPjj182pdAFLTrfVECwvSw4iW7aj4ZbCKRwmwV6jzUHFq5dkCje/wNplaBHWyfYDzaKGrqlcuag/nhR89UuclxVYhDhIpjoFWe+JyxCIOGW0ChESb3ZPNvgsYNl4MgJ0/nCmx0OlB0Um8KLvCEbwBIYapJ0w9FDzyXjhgg1NIF6hE0beQaZwCA5cjpDgxUfndCgp7hh+YLbI"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/wireless?form=smart_connect": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zvjbJvtFtvO31fZXHhlKqHEbmZl1nFnTjvMBaslogtu5\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/wireless?form=wireless_2g": [
+    {
+      "wire_size": 185,
+      "wire_preview": "sign=d6c0b9da883f155895aabf615cc44a0a963474d031ccadae9a8561d3d3a437d46b6afcb2fab67284b4899cfa3ae8674133b8d864eab8afa012f64dd8e9a0ef47&data=NiNqBlaNx1hqrSlQoI6ktXIST202QoZCsqRV5zWqdTQ%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0ziIGry5hlMYm5o2W3Mtl88KeB/E+MzVuv6HHAXfP9J5JeFt0+O4S4EDpI3vPNQYIo+yDWMUYWE1rwaLDVu0TPAFRpREXXQTO+mXsWPzey8ZfAyOnC0M4G83/2x3mQbHOXUEzqCzXNyCiLrYwwWwg+ZHXgrrG12o6TdBaMxhd2tTalHNQyAMaLs4vWr64tMIizVFj/RJeU4SwqyTt0GRHz0Tx7/pKJb/ucbx3U+VJwK2WYUUme20t1oK6Nk/sY/Mk810aNdkwALDb9eT"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/wireless?form=wireless_5g": [
+    {
+      "wire_size": 185,
+      "wire_preview": "sign=d6c0b9da883f155895aabf615cc44a0a963474d031ccadae9a8561d3d3a437d46b6afcb2fab67284b4899cfa3ae8674133b8d864eab8afa012f64dd8e9a0ef47&data=NiNqBlaNx1hqrSlQoI6ktXIST202QoZCsqRV5zWqdTQ%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0ziIGry5hlMYm5o2W3Mtl88KeB/E+MzVuv6HHAXfP9J5JeFt0+O4S4EDpI3vPNQYIo+yDWMUYWE1rwaLDVu0TPAFRpREXXQTO+mXsWPzey8ZfAyOnC0M4G83/2x3mQbHOXUEzqCzXNyCiLrYwwWwg+ZHXgrrG12o6TdBaMxhd2tTalHNQyAMaLs4vWr64tMIizVFj/RJeU4SwqyTt0GRHz0RENHP4pbjL3SfdKuuHyTdk0gB9La1CO2dkj8SUapTpC9UeWonqoAC4zQD"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/time?form=settings": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zi5okU0iqdqyrofsgD8DBHoxKZcpjXAZ/MfBsz2XfTcRIxDXPRxBhSfuBjYkGA1g7gQr+YGKnMs63tZNBnwh+QHB5LOKIDNCjxgHbyPSgue2C+MwTR2XKlhDY9EeLYsQybim0RGI3/k5d2HpBTLJHvOjZA1RK2e/K3jM99YxLT4hu0yjpAasyrCxFm9eChSJflxpE/n56lNrkDxMIXaRvTPcBP3v9zLZ/ev4xhm/CU1IJVNbSBmQRzE9oRIc3Fxg/AsP2LaM/5LEji4"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zi5okU0iqdqyrofsgD8DBHoxKZcpjXAZ/MfBsz2XfTcRIxDXPRxBhSfuBjYkGA1g7gQr+YGKnMs63tZNBnwh+QHB5LOKIDNCjxgHbyPSgue2C+MwTR2XKlhDY9EeLYsQybim0RGI3/k5d2HpBTLJHvOjZA1RK2e/K3jM99YxLT4hu0yjpAasyrCxFm9eChSJflxpE/n56lNrkDxMIXaRvTP+XY7Hr4Xve/WNRn1eZj9OTqmqnUcGhd7IGqrT3bgZfWvufVo4fFkIk12"
+    },
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zi5okU0iqdqyrofsgD8DBHoxKZcpjXAZ/MfBsz2XfTcRIxDXPRxBhSfuBjYkGA1g7gQr+YGKnMs63tZNBnwh+QHB5LOKIDNCjxgHbyPSgue2C+MwTR2XKlhDY9EeLYsQybim0RGI3/k5d2HpBTLJHvOjZA1RK2e/K3jM99YxLT4hu0yjpAasyrCxFm9eChSJflxpE/n56lNrkDxMIXaRvTP+XY7Hr4Xve/WNRn1eZj9OTqmqnUcGhd7IGqrT3bgZfWvufVo4fFkIk12"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/firmware?form=auto_upgrade": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9men4ChUbGMNc7BSoJDnxgtUyBkyL8NPmC4HmPgAAfJGW+A==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/time?form=dst": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zu50gnwPj25AYdEpdx7CN+Obm1ziZeDI+bY8jVyX5zn8gWrbeTmdz37hp7KnKHO3fyJmmdc6RYHjRXzeLSxgXH1Y+vRmvICaI5/Nmg6aiYB/ii3E2jU2JU8J0TQ+2kGYivEJuyMfnkLgdky/pJc1S2khdaSggxknFiIcj80o3l27yVRETIUmFv5vXKzX5ykdJ0/F4b9Gxw9Z04qG1JnAc6TgH2fysrpKIEVkzGUiNYagUTHiwCl4TyZRhFQDvfMTRiYfBAD3TUv3XoP"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/wireless?form=region": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zup0ahXoFzJLjsMK9lZM8S35ONz4eSG5N5ZdyJXRrZELRjIbolyKy11cnrT34AB2ddF04mCtshw+ZP4uqv3oPtUcnCcwOph6+vRz2KPFH61RBMFfBFRnEdHy1u3r+ArTajVzp+iucm1S+mz6fj+x29+e5tCN7OVw48J/AC+cKn2S5oZ3EqXIyHKDAMmgb8EjNQV2tuqAwwqBsKIgkQZJnsUsWWKRLatitpQngkCg4CxGsqBN1aeFCuOWUc/fQZJnX4Lz7pGMIEQx16S"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=wan_ipv6_protos": [
+    {
+      "wire_size": 187,
+      "wire_preview": "sign=75813a9f9757a57deaddd8774d8430e25b01607b369b7b6df380fc88d63fa3ece337e962b406b4a57c630adfe8d84dcc6a4beafffb80980816e14bb9084234ee&data=pypaJbkCRpvZDrVLrvNy8aLuAdfzwEOCruxmVSLaP%2FU%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zpw9kDbyZGSfjg1FfM2kQs3744Kmy1c0+Lfx5Lsqf3BeOWfaZhmJUaqoH1T1UI6R7uc+JWDIQIPOfBPA6VmAcP4PQKNID38ZwBb3EtyKaiKb67p6IlMKgplyrpIMmi/hye9i53MlHOs6Uz4pt7oOggI72APwfX5qvEWOyD31WsckvCk4XQ5wk2kPyA2KZdoPbdxOcLmadQpnZKdCmWayjky9Ze8IVAibbqrQIQThsqKl2cws3v4yKmvi2SXSc7mPjw2LtTXDP2FBf6r"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=wan_ipv6_status": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zo2o1eWv+q2tmzjNYTw9melv89F0N04sAOJQQpN5MVdMYhiBvtZJhp0ymz+EntkkFg==\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=lan_ipv6": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zlCh6BczqRL/sPfxSJAXD2aOOLP8TrXPFnJuvRtwGkDLBTbIkGw7IBkySG/zTZ3gImReDdlzvS3GUl/aBiEfEy7KFwN+DwbVWVIXxxgMm2FcQabpoILhAA88F9ViO9r0xPEcND9+1usFDkDCKE7I/9VX6wFni9ud01rV3QE8KI4vBeeGABWl8zDAiRlR/YD//E4Q3z+4NvT30qGk/qZD7mKyTBeshk7r90jwXn4K0Lwu\"}"
+    }
+  ],
+  "/cgi-bin/luci/;stok=004d5813de853c54e9ad018820f31734/admin/network?form=mac_clone_advanced": [
+    {
+      "wire_size": 167,
+      "wire_preview": "sign=a49b43457d463ddb5bd05578af3e107c64e22b30dd5d4096fb343a6cbb2b3283ceb790deb59893c1aab0d5d707bdd6ad4033d1a1aae5cd6eb6ff8f7f6033a96a&data=kQfE8eK7Ac9mLRurtAfh1g%3D%3D",
+      "inferred_plaintext": {
+        "a": null
+      },
+      "response_preview": "{\"data\":\"qGeecRH3kqY8cOPxNHu0zqVQucTkY16nAqBKZgHvtSlIXnfS5dLgrwlJmtKCjcSy+3CSwEoVLKydsyqNgOURdh05IqeC25vZsQTVCnoQim6siKiJFDHjOJbGUjrRuClynK4SOwkjow9T5KW3uYyd4jA9CPEMN3CVOspFhV/kIkdVWeySkmELOKHJocWEZ7c69GJige+TR/+kK4qITry/NyNQhqZHJh8j+J71IzXL4Qg=\"}"
+    }
+  ]
+}

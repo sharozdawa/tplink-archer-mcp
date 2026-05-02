@@ -1,0 +1,1 @@
+import{u as n}from"./vendor-BrE4IMR2.js";function a(a){const l=a.tableData,e=a.fn,t=(null==a?void 0:a.key)||"key",o=null==a?void 0:a.after;return{event:async(...a)=>{const u=l.value.findIndex((n=>n[t]===a[0][t]));try{-1!==u&&(l.value[u].loading=!0);const t=n(e);t&&await t.apply({},a)}finally{-1!==u&&(l.value[u].loading=!1)}null==o||o()}}}export{a as u};

@@ -1,0 +1,1 @@
+import{s as r}from"./update-store-DQkZxaRI.js";const e="/admin/eco_mode?form=settings";function t(){return r.read(e)}function n(t){return r.write(e,t)}function o(){return r.read("/admin/wireless?form=eco")}export{t as a,o as g,n as s};

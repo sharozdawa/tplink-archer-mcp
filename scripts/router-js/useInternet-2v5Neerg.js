@@ -1,0 +1,1 @@
+import{d as t,J as a}from"./update-store-DQkZxaRI.js";import{e}from"./index-Cd9lOeyT.js";import{r}from"./vendor-BrE4IMR2.js";function n(){const n=r(!1);return{isConnected:n,checkInternet:async function(){try{t.isValid()?await a():await e(),n.value=!0}catch(r){n.value=!1}}}}export{n as u};

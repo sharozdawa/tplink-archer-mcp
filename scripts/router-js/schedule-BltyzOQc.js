@@ -1,0 +1,1 @@
+import{b as a,c as s}from"./schedule-jyzvgaE7.js";import{aU as i,r as e}from"./vendor-BrE4IMR2.js";const n=i("wirelessSchedule",(()=>{const i=e(!1),n=e(!1);return{isIniting:n,isActive:i,init:async function(){n.value=!0;try{const s=await a();i.value=s.inforce}catch(s){i.value=!1}finally{n.value=!1}},skip:async function(){await s(),i.value=!1}}}));export{n as u};

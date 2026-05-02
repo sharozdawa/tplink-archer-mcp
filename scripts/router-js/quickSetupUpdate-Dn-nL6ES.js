@@ -1,0 +1,1 @@
+import{aU as a,r as t}from"./vendor-BrE4IMR2.js";const e=a("quickSetupUpdate",(()=>{const a=t(!1),e=t(""),i=t("");return{updateTip:e,firmwareDetail:i,isUpdateCritical:a,setUpdateInfo:function(t){a.value=t.isUpdateCritical,e.value=t.updateTip,i.value=t.detail}}}));export{e as u};

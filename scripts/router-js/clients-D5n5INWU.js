@@ -1,0 +1,1 @@
+var s=(s=>(s.Up="up",s.Down="down",s))(s||{}),o=(s=>(s.NO_LIMIT="none",s.MBPS_1="1mbps",s.MBPS_10="10mbps",s.CUSTOM="custom",s))(o||{}),p=(s=>(s.NO_LIMIT="none",s.KBPS_200="200kbps",s.MBPS_2="2mbps",s.CUSTOM="custom",s))(p||{});export{o as D,s as S,p as U};

@@ -1,0 +1,1 @@
+import{m as a,n as s}from"./AccessDeviceList.model-wrV34TPA.js";import{e,f as n}from"./update-store-DQkZxaRI.js";async function t(){const{enable:s}=await a();return{enable:e(s)}}async function o(a){await s({enable:n(a)})}export{t as g,o as s};

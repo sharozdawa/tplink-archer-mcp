@@ -1,0 +1,1 @@
+import{V as e}from"./index-DoyeK1M5.js";import{r as i,i as r}from"./vendor-BrE4IMR2.js";function a(a){const o=i(null),l=r({file:void 0}),t=r({file:(new e).isRequired().fileExt({ext:a}).rule});return{form:l,formRef:o,formRules:t,validate:async()=>{var e;await(null==(e=o.value)?void 0:e.validate())}}}export{a as u};

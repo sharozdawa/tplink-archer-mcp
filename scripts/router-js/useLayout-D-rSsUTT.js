@@ -1,0 +1,1 @@
+import{a1 as o,I as t,r as e}from"./vendor-BrE4IMR2.js";const n=768,s=1024,a=1366,l=e(!1),r=e("l");function u(){return o(document.body,t((o=>{const t=o[0],{width:e}=t.contentRect,u=e<n;l.value=u,r.value=u?"s":e<s?"m":e<a?"l":"xl"}),100)),{isMobile:l,layout:r}}export{u};

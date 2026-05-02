@@ -1,0 +1,1 @@
+import{aY as o}from"./vendor-BrE4IMR2.js";import{$ as n}from"./su-Bm64L54G.js";function e(e,t){const{t:m}=o();return{handleDeleteConfirm:async function(...o){await!0&&n.confirm({content:m("common.deleteConfirmTip"),onOk:()=>{e.apply({},o)},onCancel:()=>{},okText:m("common.ok")})}}}export{e as u};

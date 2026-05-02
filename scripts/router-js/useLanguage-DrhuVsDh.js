@@ -1,0 +1,1 @@
+import{u as a}from"./update-store-DQkZxaRI.js";import{aV as n}from"./vendor-BrE4IMR2.js";function e(){const e=a(),{availableLanguages:o,currentLang:t}=n(e);return{init:e.initBasicInfo,availableLanguages:o,currentLanguage:t,handleChange:async function(a){await e.changeLanguage(a),window.location.reload()}}}export{e as u};

@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-BCo6x5W8.js";import{n,v as r,z as t}from"./vendor-BrE4IMR2.js";const o={"aria-hidden":"true",width:"100%",height:"13"};const s=e({},[["render",function(e,s){return r(),n("svg",o,s[0]||(s[0]=[t("polyline",{points:"28,13 28,1 138,1 138,13",style:{fill:"none","stroke-width":"1"}},null,-1)]))}]]);export{s as _};

@@ -1,0 +1,1 @@
+import{aU as r,b5 as a}from"./vendor-BrE4IMR2.js";const e={xs:320,sm:480,md:768,lg:1024,xl:1366},s=r("breakPoints",(()=>{const r=a(e);return{xs:r.greaterOrEqual("xs"),sm:r.greaterOrEqual("sm"),md:r.greaterOrEqual("md"),lg:r.greaterOrEqual("lg"),xl:r.greaterOrEqual("xl")}}));export{s as u};
