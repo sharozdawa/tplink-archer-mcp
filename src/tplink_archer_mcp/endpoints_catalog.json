@@ -1,0 +1,642 @@
+{
+  "get_mesh_device_list_all": {
+    "form": "get_mesh_device_list_all",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/easymesh_network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/diagnostic",
+      "/easyMesh",
+      "/factoryDefaults",
+      "/pptpVpnServer",
+      "/qos",
+      "/staticRoute",
+      "/wirelessAdvancedSettings"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "get_deviceInfo": {
+    "form": "get_deviceInfo",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/cloud_account"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/backupRestore"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "internet": {
+    "form": "internet",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/status"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/diagnostic",
+      "/factoryDefaults",
+      "/pptpVpnServer",
+      "/qos",
+      "/staticRoute",
+      "/wirelessAdvancedSettings"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "all": {
+    "form": "all",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/status"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/easyMesh"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "network_map": {
+    "form": "network_map",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/status"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "config": {
+    "form": "config",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/firmware",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/l2tpoveripsec",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/pptpd",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/device_config"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/accessControl",
+      "/alg",
+      "/backupRestore",
+      "/cloudUserManagement",
+      "/ddns",
+      "/dhcpServer",
+      "/diagnostic",
+      "/dmz",
+      "/easyMesh",
+      "/factoryDefaults",
+      "/firewall",
+      "/firmwareUpgrade",
+      "/guestNetwork",
+      "/homeShield",
+      "/internetBasic",
+      "/ipMacBinding",
+      "/ipv6",
+      "/lan",
+      "/ledControl",
+      "/loginPassword",
+      "/networkMap",
+      "/openVpnServer",
+      "/parentalControlsV4",
+      "/portForwarding",
+      "/portTriggering",
+      "/pptpVpnServer",
+      "/qos",
+      "/reboot",
+      "/staticRoute",
+      "/systemLog",
+      "/timeSettings",
+      "/upnp",
+      "/vpnClient",
+      "/wireless/schedule",
+      "/wireless/statistics",
+      "/wireless/wdsBridge",
+      "/wireless/wps",
+      "/wireless2g",
+      "/wireless5g",
+      "/wirelessAdvancedSettings"
+    ],
+    "first_payload_sample": "operation=read"
+  },
+  "remind": {
+    "form": "remind",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/cloud_account"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/networkMap",
+      "/wireless5g"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "cloud_upgrade": {
+    "form": "cloud_upgrade",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/cloud_account"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/networkMap",
+      "/wireless5g"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "game_accelerator": {
+    "form": "game_accelerator",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/smart_network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/diagnostic",
+      "/factoryDefaults",
+      "/pptpVpnServer",
+      "/qos",
+      "/staticRoute",
+      "/wirelessAdvancedSettings"
+    ],
+    "first_payload_sample": "sign=b8cd3c826df18b5ad5675a92e7edf7cc54c79a505487897a23ce3b8c5929a2d6503adfcf137d60960ae9599f3dfc9e7c7ddd1a83dc48febca766a145882759dd&data=VT672Bm1MKqt%2BWmikNwMhiF%2B4nGUyXo02IryhcgAn1k%3D"
+  },
+  "status_ipv4": {
+    "form": "status_ipv4",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/internetBasic"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "wan_ipv4_protos": {
+    "form": "wan_ipv4_protos",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/internetBasic"
+    ],
+    "first_payload_sample": "sign=0ad919b61266269632c6b8725f4180c785fe65e5d27fac0c7bc99e8094ed6a4975e9b65d64d4b5e06ef12321f8b7e25ef8ecdee463a9612469d4de90fdfef6db&data=99UjnvjHtRk2fUQO30Rp0VFFj4vuO%2FH%2FHV%2B6UTriRIo%3D"
+  },
+  "wan_ipv4_status": {
+    "form": "wan_ipv4_status",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/firewall",
+      "/internetBasic"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "wan_ipv4_pppoe": {
+    "form": "wan_ipv4_pppoe",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/wireless2g"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "fing_auth_state": {
+    "form": "fing_auth_state",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/privacy_policy"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "cloud_login_window_pop": {
+    "form": "cloud_login_window_pop",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/status"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "auto_update_remind": {
+    "form": "auto_update_remind",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/cloud_account"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "easymesh_enable": {
+    "form": "easymesh_enable",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/easymesh"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/",
+      "/easyMesh"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "lan_ipv4": {
+    "form": "lan_ipv4",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/dhcpServer",
+      "/portForwarding"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "setting": {
+    "form": "setting",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/dhcps",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/imb",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/nat"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/alg",
+      "/dhcpServer",
+      "/dmz",
+      "/ipMacBinding",
+      "/upnp"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "reservation": {
+    "form": "reservation",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/dhcps"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/dhcpServer"
+    ],
+    "first_payload_sample": "sign=65933e7d296437526dd2c1e27a6b86ef404fe91a7aa843b2773e7d051c82c00fd881c6f995587f930637bca42b18ee9e8a1c7a54efe95157d52f92e19b9b45aa&data=k%2Fz4Xz5NuhfvZKPg9S8oNA%3D%3D"
+  },
+  "client": {
+    "form": "client",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/dhcps"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/dhcpServer"
+    ],
+    "first_payload_sample": "sign=65933e7d296437526dd2c1e27a6b86ef404fe91a7aa843b2773e7d051c82c00fd881c6f995587f930637bca42b18ee9e8a1c7a54efe95157d52f92e19b9b45aa&data=k%2Fz4Xz5NuhfvZKPg9S8oNA%3D%3D"
+  },
+  "vs": {
+    "form": "vs",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/nat"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/portForwarding"
+    ],
+    "first_payload_sample": "sign=65933e7d296437526dd2c1e27a6b86ef404fe91a7aa843b2773e7d051c82c00fd881c6f995587f930637bca42b18ee9e8a1c7a54efe95157d52f92e19b9b45aa&data=k%2Fz4Xz5NuhfvZKPg9S8oNA%3D%3D"
+  },
+  "pt": {
+    "form": "pt",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/nat"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/portTriggering"
+    ],
+    "first_payload_sample": "sign=65933e7d296437526dd2c1e27a6b86ef404fe91a7aa843b2773e7d051c82c00fd881c6f995587f930637bca42b18ee9e8a1c7a54efe95157d52f92e19b9b45aa&data=k%2Fz4Xz5NuhfvZKPg9S8oNA%3D%3D"
+  },
+  "enable": {
+    "form": "enable",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/access_control",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/upnp",
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/vpn"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/accessControl",
+      "/upnp",
+      "/vpnClient"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "service": {
+    "form": "service",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/upnp"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/upnp"
+    ],
+    "first_payload_sample": "sign=65933e7d296437526dd2c1e27a6b86ef404fe91a7aa843b2773e7d051c82c00fd881c6f995587f930637bca42b18ee9e8a1c7a54efe95157d52f92e19b9b45aa&data=k%2Fz4Xz5NuhfvZKPg9S8oNA%3D%3D"
+  },
+  "dmz": {
+    "form": "dmz",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/nat"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/dmz"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "new_enable": {
+    "form": "new_enable",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/security_settings"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/firewall"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "client_list": {
+    "form": "client_list",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/nat"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/accessControl"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "alg": {
+    "form": "alg",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/nat"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/alg"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "thirdvpn": {
+    "form": "thirdvpn",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/vpn"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/vpnClient"
+    ],
+    "first_payload_sample": "sign=ce48ce761b9af1fb6f50b35ab40141038f28a52fc465721268c13b762ce6693b9197aebd2c3c5ab02e215c462e9017f38032ce088217e1384bdab12777179d0c&data=ejbnPXxjyuGsnDMuRHW9OHFM8v%2FM%2Fh%2F630hoMBXvQos%3D"
+  },
+  "wan_ipv6_protos": {
+    "form": "wan_ipv6_protos",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/ipv6"
+    ],
+    "first_payload_sample": "sign=229ea3e006e6e8675e8a6d94669f3e3f2def81880a8b0b3c2618f58a60eb955b893960c9b2dd5528ddf8a0d27c1d9590c16d04e45329d4fe981511c106481cce&data=99UjnvjHtRk2fUQO30Rp0axtserlGvZi3N210ynKHDM%3D"
+  },
+  "wan_ipv6_status": {
+    "form": "wan_ipv6_status",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/ipv6"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "lan_ipv6": {
+    "form": "lan_ipv6",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/ipv6"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "mac_clone_advanced": {
+    "form": "mac_clone_advanced",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/network"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/ipv6"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "wireless_2g": {
+    "form": "wireless_2g",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/wireless"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/easyMesh"
+    ],
+    "first_payload_sample": "sign=08a44b70f69fe18e8f350527f2daab3615bdb057671278753001d9f25a63a76a4d486722b73da7e9779d569a6e0078c9f23a2603505905f614044e8be86553b6&data=irjL%2BgbkAfyPSNXOh34NwmLqGn2zKBnoE9yennFEN%2BQ%3D"
+  },
+  "wireless_5g": {
+    "form": "wireless_5g",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/wireless"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/easyMesh"
+    ],
+    "first_payload_sample": "sign=08a44b70f69fe18e8f350527f2daab3615bdb057671278753001d9f25a63a76a4d486722b73da7e9779d569a6e0078c9f23a2603505905f614044e8be86553b6&data=irjL%2BgbkAfyPSNXOh34NwmLqGn2zKBnoE9yennFEN%2BQ%3D"
+  },
+  "smart_connect": {
+    "form": "smart_connect",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/wireless"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/easyMesh"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "settings": {
+    "form": "settings",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/time"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/reboot"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "set": {
+    "form": "set",
+    "paths": [
+      "/cgi-bin/luci/;stok=0a421bdc602d4eae065f0f6a98407f47/admin/reboot"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/reboot"
+    ],
+    "first_payload_sample": "sign=454f5c20b4e5943b94648c8f30dd250cd0d68053cbc4762e5f2d7e68bdd1b2f1da3424e514f6841ad784ab840598c7734b6609b2b7cf3e344667bfb59f449a67&data=pI94o9BBH8vEAqqBqi9yKw%3D%3D"
+  },
+  "logout": {
+    "form": "logout",
+    "paths": [
+      "/cgi-bin/luci/;stok=/login"
+    ],
+    "methods": [
+      "POST"
+    ],
+    "operations": [],
+    "seen_on_pages": [
+      "/"
+    ],
+    "first_payload_sample": null
+  }
+}

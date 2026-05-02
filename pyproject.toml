@@ -1,0 +1,21 @@
+[project]
+name = "tplink-archer-mcp"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.2.4",
+    "httpx>=0.28.1",
+    "playwright>=1.59.0",
+    "pycryptodome>=3.23.0",
+    "tplinkrouterc6u>=5.19.0",
+]
+
+[project.scripts]
+tplink-archer-mcp = "tplink_archer_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tplink_archer_mcp"]
