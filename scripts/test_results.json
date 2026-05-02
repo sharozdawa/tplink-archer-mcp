@@ -1,0 +1,605 @@
+{
+  "js_get_wan_status": {
+    "status": "\u2713",
+    "summary": "keys=['lan_ipv4_dhcp_enable', 'lan_macaddr', 'wan_ipv4_snddns', 'wan_macaddr', 'wan_ipv4_pridns']",
+    "data": {
+      "lan_ipv4_dhcp_enable": "On",
+      "lan_macaddr": "54-AF-97-42-39-C8",
+      "wan_ipv4_snddns": "115.69.240.12",
+      "wan_macaddr": "54-AF-97-42-39-C9",
+      "wan_ipv4_pridns": "8.8.8.8",
+      "wan_ipv4_gateway": "103.224.5.18",
+      "wan_ipv4_conntype": "pppoe",
+      "wan_ipv4_netmask": "255.255.255.255"
+    }
+  },
+  "js_get_pppoe_config": {
+    "status": "\u2713",
+    "summary": "keys=['static_ip', 'access', 'mtu', 'nonaddress_support', 'conn_mode']",
+    "data": {
+      "static_ip": "",
+      "access": "",
+      "mtu": "1480",
+      "nonaddress_support": 1,
+      "conn_mode": "auto",
+      "inet_pridns": "8.8.8.8",
+      "ip_mode": "dynamic",
+      "username": "sharoz_dawa"
+    }
+  },
+  "js_get_wan_protocols": {
+    "status": "\u2713",
+    "summary": "list[5]",
+    "data": [
+      {
+        "name": "Dynamic IP",
+        "value": "dhcp"
+      },
+      {
+        "name": "PPPoE",
+        "value": "pppoe"
+      },
+      {
+        "name": "Static IP",
+        "value": "static"
+      },
+      {
+        "name": "L2TP",
+        "value": "l2tp"
+      },
+      {
+        "name": "PPTP",
+        "value": "pptp"
+      }
+    ]
+  },
+  "js_get_lan_config": {
+    "status": "\u2713",
+    "summary": "keys=['mask_type', 'ipaddr', 'pri_dns', 'lan_type', 'macaddr']",
+    "data": {
+      "mask_type": "255.255.255.0",
+      "ipaddr": "192.168.0.1",
+      "pri_dns": "",
+      "lan_type": "dynamic",
+      "macaddr": "54-AF-97-42-39-C8",
+      "snd_dns": "",
+      "custom_value": ""
+    }
+  },
+  "js_get_dhcp_server": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'leasetime', 'pri_dns', 'snd_dns', 'gateway']",
+    "data": {
+      "enable": "on",
+      "leasetime": "1440",
+      "pri_dns": "1.1.1.1",
+      "snd_dns": "1.0.0.1",
+      "gateway": "192.168.0.1",
+      "ipaddr_start": "192.168.0.2",
+      "domain": "",
+      "ipaddr_end": "192.168.0.253"
+    }
+  },
+  "js_get_dhcp_reservations": {
+    "status": "\u2717",
+    "err": "{'success': False, 'errorCode': 'no such callback'}"
+  },
+  "js_get_port_forwards": {
+    "status": "\u2713",
+    "summary": "list[1]",
+    "data": [
+      {
+        "internal_port": "51820",
+        "name": "WireGuard",
+        "enable": "on",
+        "external_port": "51820",
+        "ipaddr": "192.168.0.41",
+        "protocol": "UDP"
+      }
+    ]
+  },
+  "js_get_port_triggers": {
+    "status": "\u2713",
+    "summary": "keys=[]",
+    "data": {}
+  },
+  "js_get_dmz": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'ipaddr']",
+    "data": {
+      "enable": "off",
+      "ipaddr": ""
+    }
+  },
+  "js_get_alg": {
+    "status": "\u2713",
+    "summary": "keys=['h323', 'ipsec', 'pptp', 'sip', 'l2tp']",
+    "data": {
+      "h323": "on",
+      "ipsec": "on",
+      "pptp": "on",
+      "sip": "on",
+      "l2tp": "on",
+      "tftp": "on",
+      "rtsp": "on",
+      "ftp": "on"
+    }
+  },
+  "js_get_upnp": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'services']",
+    "data": {
+      "enable": {
+        "enable": "on"
+      },
+      "services": [
+        {
+          "leasetime": "07:23:21",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "13669",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:23:46",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "17055",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:24:10",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "24161",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:25:02",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "1107",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:25:03",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "54172",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:25:21",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "42138",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:25:24",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "15663",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:25:43",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "27754",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:25:49",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "52700",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:26:07",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "16470",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:26:10",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "31395",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:26:29",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "38909",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:26:35",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "10743",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:26:55",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "34780",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:26:58",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "55865",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:27:19",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "47068",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:27:23",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "1985",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:27:44",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "8078",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:27:46",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "15833",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:28:06",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "18661",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:28:07",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "50853",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:28:28",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "56891",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:28:54",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "53113",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:28:55",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "45854",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:29:16",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "12112",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:29:19",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "7589",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:29:39",
+          "name": "NAT-PMP 41641 udp",
+          "protocol": "UDP",
+          "external_port": "41641",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:29:39",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "11115",
+          "ipaddr": "192.168.0.134",
+          "internal_port": "41641"
+        },
+        {
+          "leasetime": "07:29:39",
+          "name": "tailscale-portmap",
+          "protocol": "UDP",
+          "external_port": "61920",
+          "ipaddr": "192.168.0.41",
+          "internal_port": "41641"
+        }
+      ]
+    }
+  },
+  "js_get_wifi_2g": {
+    "status": "\u2713",
+    "summary": "keys=['disabled', 'vlanid', 'wpa_cipher', 'psk_cipher', 'enable_portal_multissid']",
+    "data": {
+      "disabled": "off",
+      "vlanid": "",
+      "wpa_cipher": "auto",
+      "psk_cipher": "aes",
+      "enable_portal_multissid": "off",
+      "disabled_all": "off",
+      "server": "",
+      "current_channel": "9"
+    }
+  },
+  "js_get_wifi_5g": {
+    "status": "\u2713",
+    "summary": "keys=['disabled', 'vlanid', 'wpa_cipher', 'psk_cipher', 'enable_portal_multissid']",
+    "data": {
+      "disabled": "off",
+      "vlanid": "",
+      "wpa_cipher": "auto",
+      "psk_cipher": "aes",
+      "enable_portal_multissid": "off",
+      "disabled_all": "off",
+      "server": "",
+      "current_channel": "36"
+    }
+  },
+  "js_get_wifi_guest_2g": {
+    "status": "\u2713",
+    "summary": "keys=['authentication_timeout', 'redirect_url', 'ssid', 'disabled_by', 'enable']",
+    "data": {
+      "authentication_timeout": "",
+      "redirect_url": "",
+      "ssid": "TP-Link_Guest_39C8",
+      "disabled_by": "0",
+      "enable": "off",
+      "redirect": "off",
+      "disabled": "off",
+      "psk_version": "rsn"
+    }
+  },
+  "js_get_wifi_guest_5g": {
+    "status": "\u2713",
+    "summary": "keys=['authentication_timeout', 'redirect_url', 'ssid', 'disabled_by', 'enable']",
+    "data": {
+      "authentication_timeout": "",
+      "redirect_url": "",
+      "ssid": "TP-Link_Guest_39C8_5G",
+      "disabled_by": "0",
+      "enable": "off",
+      "redirect": "off",
+      "disabled": "off",
+      "psk_version": "rsn"
+    }
+  },
+  "js_get_wifi_iot_2g": {
+    "status": "\u2713",
+    "summary": "keys=['ssid', 'encryption', 'enable', 'hidden', 'psk_version']",
+    "data": {
+      "ssid": "TP-Link_IoT_39C8",
+      "encryption": "psk",
+      "enable": "off",
+      "hidden": "off",
+      "psk_version": "rsn",
+      "psk_key": "95954011",
+      "disabled_by": "0",
+      "psk_cipher": "aes"
+    }
+  },
+  "js_get_wifi_iot_5g": {
+    "status": "\u2713",
+    "summary": "keys=['ssid', 'encryption', 'enable', 'hidden', 'psk_version']",
+    "data": {
+      "ssid": "TP-Link_IoT_39C8_5G",
+      "encryption": "psk",
+      "enable": "off",
+      "hidden": "off",
+      "psk_version": "rsn",
+      "psk_key": "95954011",
+      "disabled_by": "0",
+      "psk_cipher": "aes"
+    }
+  },
+  "js_get_wps": {
+    "status": "\u2713",
+    "summary": "keys=['wps_state']",
+    "data": {
+      "wps_state": "configured"
+    }
+  },
+  "js_get_smart_connect": {
+    "status": "\u2713",
+    "summary": "keys=['smart_enable']",
+    "data": {
+      "smart_enable": "off"
+    }
+  },
+  "js_get_firewall": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'lan_ping', 'wan_ping']",
+    "data": {
+      "enable": "on",
+      "lan_ping": "on",
+      "wan_ping": "off"
+    }
+  },
+  "js_get_access_control": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'host_mac']",
+    "data": {
+      "enable": "off",
+      "host_mac": "2E-72-57-65-45-F7"
+    }
+  },
+  "js_get_ipv6": {
+    "status": "\u2713",
+    "summary": "keys=['dhcp_prefix', 'assign_type', 'ndp_prefix', 'address', 'rdnss_prefix']",
+    "data": {
+      "dhcp_prefix": "",
+      "assign_type": "slaac",
+      "ndp_prefix": "",
+      "address": "FE80::56AF:97FF:FE42:39C8/64",
+      "rdnss_prefix": "",
+      "release_time": "86400",
+      "slaac_prefix": ""
+    }
+  },
+  "js_get_easymesh": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'time']",
+    "data": {
+      "enable": "on",
+      "time": 20
+    }
+  },
+  "js_get_wireguard_server": {
+    "status": "\u2713",
+    "summary": "keys=['dns', 'public_key', 'access', 'address', 'enable']",
+    "data": {
+      "dns": false,
+      "public_key": "mTusI3d+g3wM9e79mz5R5tuXRIauxbXU9bz8Utte8GY=",
+      "access": "internet",
+      "address": "10.5.5.1/32",
+      "enable": false,
+      "persistent_keepalive": "25",
+      "listen_port": "51820",
+      "private_key": "yLMClrZA3/InhE+uXLKfz6pIB4cKuV+uu6cJi9lPA3w="
+    }
+  },
+  "js_get_firmware": {
+    "status": "\u2713",
+    "summary": "keys=['upgraded', 'hardware_version', 'model', 'upgradetime', 'totaltime']",
+    "data": {
+      "upgraded": false,
+      "hardware_version": "Archer AX53 v1.0",
+      "model": "Archer AX53",
+      "upgradetime": 16,
+      "totaltime": 128,
+      "is_default": false,
+      "firmware_version": "1.7.1 Build 20260213 rel.87654(5553)"
+    }
+  },
+  "js_get_scheduled_reboot": {
+    "status": "\u2713",
+    "summary": "keys=['enable', 'cycle', 'time', 'day']",
+    "data": {
+      "enable": "off",
+      "cycle": "week",
+      "time": "03:00",
+      "day": "Mon"
+    }
+  },
+  "js_set_alg(ftp) (flip)": {
+    "status": "\u2713",
+    "from_to": "True\u2192False"
+  },
+  "js_set_alg(ftp) (restore)": {
+    "status": "\u2713",
+    "restored_to": true
+  },
+  "js_set_firewall(wan_ping) (flip)": {
+    "status": "\u2713",
+    "from_to": "False\u2192True"
+  },
+  "js_set_firewall(wan_ping) (restore)": {
+    "status": "\u2713",
+    "restored_to": false
+  },
+  "js_set_upnp (flip)": {
+    "status": "\u2713",
+    "from_to": "True\u2192False"
+  },
+  "js_set_upnp (restore)": {
+    "status": "\u2713",
+    "restored_to": true
+  },
+  "js_set_easymesh (flip)": {
+    "status": "\u2713",
+    "from_to": "True\u2192False"
+  },
+  "js_set_easymesh (restore)": {
+    "status": "\u2713",
+    "restored_to": true
+  },
+  "js_set_smart_connect (flip)": {
+    "status": "\u2717",
+    "err": "exception: StoreError: store.read('/admin/wireless?form=smart_connect') failed: Error('Network Error')"
+  },
+  "js_set_smart_connect (restore)": {
+    "status": "\u2713",
+    "restored_to": false
+  },
+  "js_set_wifi_features(5g, mu_mimo) (flip)": {
+    "status": "\u2713",
+    "from_to": "False\u2192True"
+  },
+  "js_set_wifi_features(5g, mu_mimo) (restore)": {
+    "status": "\u2713",
+    "restored_to": false
+  },
+  "js_set_scheduled_reboot (flip)": {
+    "status": "\u2713",
+    "from_to": "False\u2192True"
+  },
+  "js_set_scheduled_reboot (restore)": {
+    "status": "\u2717 MANUAL FIX",
+    "err": "StoreError: store.write('/admin/reboot?form=set') failed: Error('timeout of 30000ms exceeded",
+    "expected_state": false
+  },
+  "js_set_dmz (flip)": {
+    "status": "\u2717",
+    "err": "exception: StoreError: store.read('/admin/nat?form=dmz') failed: Error('Network Error')"
+  }
+}

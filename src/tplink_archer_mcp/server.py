@@ -27,6 +27,7 @@ from .auth import router_session
 from .serialize import to_jsonable
 from . import tools_playwright as pw
 from . import tools_playwright_write as pww
+from . import tools_js as js
 
 
 logging.basicConfig(level=logging.WARNING)
@@ -333,6 +334,73 @@ mcp.tool(pww.pw_set_vpn_client)
 mcp.tool(pww.pw_reboot_router_now)
 mcp.tool(pww.pw_factory_reset)
 mcp.tool(pww.pw_change_admin_password)
+
+
+
+# ──────────────────────────────────────────────────────────────────
+#  JS-direct tools (PRIMARY — full coverage, ~500ms/call)
+#  These call store.read/write/insert/remove/update via dynamic
+#  import in the browser context. No UI selectors, no library
+#  limitations. Prefer these over pw_* and direct tools.
+# ──────────────────────────────────────────────────────────────────
+
+# Escape hatches
+mcp.tool(js.js_read)
+mcp.tool(js.js_write)
+mcp.tool(js.js_insert)
+mcp.tool(js.js_remove)
+mcp.tool(js.js_update)
+# WAN
+mcp.tool(js.js_get_wan_status)
+mcp.tool(js.js_get_pppoe_config)
+mcp.tool(js.js_set_pppoe)
+mcp.tool(js.js_get_wan_protocols)
+# LAN / DHCP
+mcp.tool(js.js_get_lan_config)
+mcp.tool(js.js_set_lan_dns)
+mcp.tool(js.js_get_dhcp_server)
+mcp.tool(js.js_set_dhcp_server)
+mcp.tool(js.js_get_dhcp_reservations)
+mcp.tool(js.js_add_dhcp_reservation)
+mcp.tool(js.js_del_dhcp_reservation)
+# NAT
+mcp.tool(js.js_get_port_forwards)
+mcp.tool(js.js_add_port_forward)
+mcp.tool(js.js_del_port_forward)
+mcp.tool(js.js_get_port_triggers)
+mcp.tool(js.js_get_dmz)
+mcp.tool(js.js_set_dmz)
+mcp.tool(js.js_get_alg)
+mcp.tool(js.js_set_alg)
+mcp.tool(js.js_get_upnp)
+mcp.tool(js.js_set_upnp)
+# Wireless
+mcp.tool(js.js_get_wifi)
+mcp.tool(js.js_set_wifi_ssid)
+mcp.tool(js.js_set_wifi_password)
+mcp.tool(js.js_set_wifi_security)
+mcp.tool(js.js_set_wifi_channel)
+mcp.tool(js.js_set_wifi_features)
+mcp.tool(js.js_get_wps)
+mcp.tool(js.js_set_wps)
+mcp.tool(js.js_get_smart_connect)
+mcp.tool(js.js_set_smart_connect)
+mcp.tool(js.js_set_ofdma)
+mcp.tool(js.js_set_twt)
+# Security
+mcp.tool(js.js_get_firewall)
+mcp.tool(js.js_set_firewall)
+mcp.tool(js.js_get_access_control)
+mcp.tool(js.js_set_access_control)
+# Misc
+mcp.tool(js.js_get_ipv6)
+mcp.tool(js.js_get_easymesh)
+mcp.tool(js.js_set_easymesh)
+mcp.tool(js.js_get_wireguard_server)
+mcp.tool(js.js_get_firmware)
+mcp.tool(js.js_get_scheduled_reboot)
+mcp.tool(js.js_set_scheduled_reboot)
+mcp.tool(js.js_reboot_now)
 
 
 def main() -> None:
